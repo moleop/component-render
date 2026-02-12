@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="84" viewBox="0 0 264 84" style="font-family: sans-serif;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <g transform="translate(0, 0)" id="root" class="node">
+    <g transform="translate(12, 12)" id="n1" class="node">
+      <rect width="100" height="60" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="50" y="15" text-anchor="middle" font-size="12px" fill="#000">Source</text>
+      <rect x="100" y="25" width="10" height="10" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+    </g>
+    <g transform="translate(152, 12)" id="n2" class="node">
+      <rect width="100" height="60" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="50" y="15" text-anchor="middle" font-size="12px" fill="#000">Sink</text>
+      <rect x="-10" y="25" width="10" height="10" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+    </g>
+    <path d="M 122 42 L 142 42" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+</svg>

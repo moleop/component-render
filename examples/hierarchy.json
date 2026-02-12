@@ -1,0 +1,47 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered",
+    "elk.hierarchyHandling": "INCLUDE_CHILDREN"
+  },
+  "children": [
+    {
+      "id": "n1",
+      "labels": [{ "text": "Parent Node" }],
+      "children": [
+        {
+          "id": "n2",
+          "width": 60,
+          "height": 40,
+          "labels": [{ "text": "Child 1" }]
+        },
+        {
+          "id": "n3",
+          "width": 60,
+          "height": 40,
+          "labels": [{ "text": "Child 2" }]
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "sources": ["n2"],
+          "targets": ["n3"]
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "width": 60,
+      "height": 40,
+      "labels": [{ "text": "External" }]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e2",
+      "sources": ["n1"],
+      "targets": ["n4"]
+    }
+  ]
+}

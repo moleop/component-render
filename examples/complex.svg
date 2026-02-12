@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="596" height="139" viewBox="0 0 596 139" style="font-family: sans-serif;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <g transform="translate(0, 0)" id="root" class="node">
+    <g transform="translate(12, 27)" id="input_block" class="node">
+      <rect width="120" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="60" y="15" text-anchor="middle" font-size="12px" fill="#000">Input Block</text>
+      <rect x="120" y="45" width="10" height="10" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+    </g>
+    <g transform="translate(172, 12)" id="process_subsystem" class="node">
+      <rect width="252" height="110" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="126" y="15" text-anchor="middle" font-size="12px" fill="#000">Processing Subsystem</text>
+      <rect x="-10" y="60" width="10" height="10" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="252" y="60" width="10" height="10" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(28, 40)" id="filter" class="node">
+        <rect width="80" height="50" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+        <text x="40" y="15" text-anchor="middle" font-size="12px" fill="#000">Filter</text>
+        <rect x="-8" y="21" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+        <rect x="80" y="21" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+      </g>
+      <g transform="translate(144, 40)" id="transform" class="node">
+        <rect width="80" height="50" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+        <text x="40" y="15" text-anchor="middle" font-size="12px" fill="#000">Transform</text>
+        <rect x="-8" y="21" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+        <rect x="80" y="21" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+      </g>
+      <path d="M 116 65 L 136 65" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    </g>
+    <g transform="translate(464, 37)" id="output_block" class="node">
+      <rect width="120" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="60" y="15" text-anchor="middle" font-size="12px" fill="#000">Output Block</text>
+      <rect x="-10" y="35" width="10" height="10" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+    </g>
+    <path d="M 142 77 L 162 77" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M -10 65 L 20 65" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 232 65 L 262 65" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 434 77 L 454 77" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+</svg>
