@@ -4,84 +4,225 @@
     "elk.algorithm": "layered",
     "elk.hierarchyHandling": "INCLUDE_CHILDREN",
     "elk.direction": "RIGHT",
-    "elk.spacing.nodeNode": "60",
-    "elk.layered.spacing.edgeNodeBetweenLayers": "40"
+    "elk.spacing.nodeNode": "120",
+    "elk.layered.spacing.nodeNodeBetweenLayers": "150",
+    "elk.layered.spacing.edgeNodeBetweenLayers": "60"
   },
   "children": [
     {
       "id": "input_node",
-      "width": 60, "height": 40,
-      "labels": [{ "text": "Input" }],
+      "width": 120,
+      "height": 80,
+      "labels": [
+        {
+          "text": "Input"
+        }
+      ],
       "ports": [
-        { "id": "p_in_1", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "EAST" } }
+        {
+          "id": "p_in_1",
+          "width": 18,
+          "height": 18,
+          "layoutOptions": {
+            "elk.port.side": "EAST"
+          }
+        }
       ]
     },
     {
       "id": "sub_main",
-      "labels": [{ "text": "Main Subsystem" }],
+      "labels": [
+        {
+          "text": "Main Subsystem"
+        }
+      ],
       "layoutOptions": {
-          "elk.padding": "[top=30,left=30,bottom=30,right=30]",
-          "elk.algorithm": "layered"
+        "elk.padding": "[top=80,left=60,bottom=60,right=60]",
+        "elk.spacing.nodeNode": "80",
+        "elk.layered.spacing.nodeNodeBetweenLayers": "100",
+        "elk.algorithm": "layered"
       },
       "children": [
         {
           "id": "proc_1",
-          "width": 80, "height": 60,
-          "labels": [{ "text": "Processor 1" }],
+          "width": 160,
+          "height": 120,
+          "labels": [
+            {
+              "text": "Processor 1"
+            }
+          ],
           "ports": [
-             { "id": "p_p1_in1", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "WEST" } },
-             { "id": "p_p1_in2", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "WEST" } },
-             { "id": "p_p1_out1", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "EAST" } },
-             { "id": "p_p1_out2", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "EAST" } }
+            {
+              "id": "p_p1_in1",
+              "width": 18,
+              "height": 18,
+              "layoutOptions": {
+                "elk.port.side": "WEST"
+              }
+            },
+            {
+              "id": "p_p1_in2",
+              "width": 18,
+              "height": 18,
+              "layoutOptions": {
+                "elk.port.side": "WEST"
+              }
+            },
+            {
+              "id": "p_p1_out1",
+              "width": 18,
+              "height": 18,
+              "layoutOptions": {
+                "elk.port.side": "EAST"
+              }
+            },
+            {
+              "id": "p_p1_out2",
+              "width": 18,
+              "height": 18,
+              "layoutOptions": {
+                "elk.port.side": "EAST"
+              }
+            }
           ]
         },
         {
           "id": "proc_2",
-          "width": 80, "height": 50,
-          "labels": [{ "text": "Processor 2" }],
+          "width": 160,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Processor 2"
+            }
+          ],
           "ports": [
-             { "id": "p_p2_in", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "WEST" } },
-             { "id": "p_p2_out", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "EAST" } }
+            {
+              "id": "p_p2_in",
+              "width": 18,
+              "height": 18,
+              "layoutOptions": {
+                "elk.port.side": "WEST"
+              }
+            },
+            {
+              "id": "p_p2_out",
+              "width": 18,
+              "height": 18,
+              "layoutOptions": {
+                "elk.port.side": "EAST"
+              }
+            }
           ]
         },
         {
-            "id": "sub_deep",
-            "labels": [{"text": "Deep Subsystem"}],
-            "layoutOptions": {
-                "elk.padding": "[top=20,left=20,bottom=20,right=20]",
-                "elk.algorithm": "layered"
+          "id": "deep_1",
+          "width": 140,
+          "height": 80,
+          "labels": [
+            {
+              "text": "Deep Logic"
+            }
+          ],
+          "ports": [
+            {
+              "id": "p_d1_in",
+              "width": 18,
+              "height": 18,
+              "layoutOptions": {
+                "elk.port.side": "WEST"
+              }
             },
-            "children": [
-                {
-                    "id": "deep_1",
-                    "width": 70, "height": 40,
-                    "labels": [{"text": "Deep Logic"}],
-                    "ports": [
-                        { "id": "p_d1_in", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "WEST" } },
-                        { "id": "p_d1_out", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "EAST" } }
-                    ]
-                }
-            ]
+            {
+              "id": "p_d1_out",
+              "width": 18,
+              "height": 18,
+              "layoutOptions": {
+                "elk.port.side": "EAST"
+              }
+            }
+          ]
         }
+ 
       ],
       "edges": [
-          { "id": "e_p1_deep", "sources": ["p_p1_out1"], "targets": ["p_d1_in"] },
-          { "id": "e_deep_p1", "sources": ["p_d1_out"], "targets": ["p_p1_in2"] }
+        {
+          "id": "e_p1_deep",
+          "sources": [
+            "p_p1_out1"
+          ],
+          "targets": [
+            "p_d1_in"
+          ]
+        },
+        {
+          "id": "e_deep_p1",
+          "sources": [
+            "p_d1_out"
+          ],
+          "targets": [
+            "p_p1_in2"
+          ]
+        }
       ]
     },
     {
       "id": "output_node",
-      "width": 60, "height": 40,
-      "labels": [{ "text": "Output" }],
+      "width": 120,
+      "height": 80,
+      "labels": [
+        {
+          "text": "Output"
+        }
+      ],
       "ports": [
-        { "id": "p_out_1", "width": 8, "height": 8, "layoutOptions": { "elk.port.side": "WEST" } }
+        {
+          "id": "p_out_1",
+          "width": 18,
+          "height": 18,
+          "layoutOptions": {
+            "elk.port.side": "WEST"
+          }
+        }
       ]
     }
   ],
   "edges": [
-    { "id": "e_in_p1", "sources": ["p_in_1"], "targets": ["p_p1_in1"] },
-    { "id": "e_in_p2", "sources": ["p_in_1"], "targets": ["p_p2_in"] },
-    { "id": "e_deep_out", "sources": ["p_d1_out"], "targets": ["p_out_1"] },
-    { "id": "e_p2_out", "sources": ["p_p2_out"], "targets": ["p_out_1"] }
+    {
+      "id": "e_in_p1",
+      "sources": [
+        "p_in_1"
+      ],
+      "targets": [
+        "p_p1_in1"
+      ]
+    },
+    {
+      "id": "e_in_p2",
+      "sources": [
+        "p_in_1"
+      ],
+      "targets": [
+        "p_p2_in"
+      ]
+    },
+    {
+      "id": "e_deep_out",
+      "sources": [
+        "p_d1_out"
+      ],
+      "targets": [
+        "p_out_1"
+      ]
+    },
+    {
+      "id": "e_p2_out",
+      "sources": [
+        "p_p2_out"
+      ],
+      "targets": [
+        "p_out_1"
+      ]
+    }
   ]
 }

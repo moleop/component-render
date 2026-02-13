@@ -1,54 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="654" height="267.2" viewBox="0 0 654 267.2" style="font-family: sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" width="1159" height="441.4666666666667" viewBox="0 0 1159 441.4666666666667" style="font-family: sans-serif;">
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
     </marker>
   </defs>
-  <g transform="translate(0, 0)" id="root" class="node">
-    <g transform="translate(12, 31.6)" id="input_node" class="node">
-      <rect width="60" height="40" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-      <text x="30" y="15" text-anchor="middle" font-size="12px" fill="#000">Input</text>
-      <rect x="60" y="16" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
+  <g transform="translate(12, 58.4666666666667)" id="input_node" class="component">
+    <rect width="120" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="60" y="15" text-anchor="middle" font-size="12px" fill="#000">Input</text>
+    <rect x="111" y="31" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(95, 5)">
+      <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
     </g>
-    <g transform="translate(165, 12)" id="sub_main" class="node">
-      <rect width="324" height="243.2" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
-      <text x="162" y="15" text-anchor="middle" font-size="12px" fill="#000">Main Subsystem</text>
-      <g transform="translate(214, 30.000000000000004)" id="proc_1" class="node">
-        <rect width="80" height="60" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-        <text x="40" y="15" text-anchor="middle" font-size="12px" fill="#000">Processor 1</text>
-        <rect x="-8" y="5.6" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-        <rect x="-8" y="32.8" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-        <rect x="-8" y="19.2" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-        <rect x="-8" y="46.4" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-      </g>
-      <g transform="translate(78, 163.2)" id="proc_2" class="node">
-        <rect width="80" height="50" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-        <text x="40" y="15" text-anchor="middle" font-size="12px" fill="#000">Processor 2</text>
-        <rect x="-8" y="21" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-        <rect x="80" y="21" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-      </g>
-      <g transform="translate(55, 63.2)" id="sub_deep" class="node">
-        <rect width="126" height="80" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
-        <text x="63" y="15" text-anchor="middle" font-size="12px" fill="#000">Deep Subsystem</text>
-        <g transform="translate(28, 20)" id="deep_1" class="node">
-          <rect width="70" height="40" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-          <text x="35" y="15" text-anchor="middle" font-size="12px" fill="#000">Deep Logic</text>
-          <rect x="-8" y="16" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-          <rect x="70" y="16" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-        </g>
-      </g>
-      <path d="M 206 53.2 L 40 53.2 L 40 103.2 L 75 103.2" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-      <path d="M 161 103.2 L 196 103.2 L 196 66.8 L 206 66.8" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-    </g>
-    <g transform="translate(582, 95.2)" id="output_node" class="node">
-      <rect width="60" height="40" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-      <text x="30" y="15" text-anchor="middle" font-size="12px" fill="#000">Output</text>
-      <rect x="-8" y="16" width="8" height="8" fill="#666" stroke="#333" stroke-width="1" class="port"/>
-    </g>
-    <path d="M 80 51.6 L 371 51.6" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 80 51.6 L 120 51.6 L 120 200.2 L 235 200.2" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 326 115.2 L 574 115.2" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 331 200.2 L 534 200.2 L 534 115.2 L 574 115.2" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
   </g>
+  <g transform="translate(296, 12)" id="sub_main" class="subsystem">
+    <rect width="567" height="417.4666666666667" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="283.5" y="15" text-anchor="middle" font-size="12px" fill="#000">Main Subsystem</text>
+    <g transform="translate(347, 80.00000000000003)" id="proc_1" class="component">
+      <rect width="160" height="120" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="80" y="15" text-anchor="middle" font-size="12px" fill="#000">Processor 1</text>
+      <rect x="-9" y="9.6" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="-9" y="64.80000000000001" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="-9" y="37.2" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="-9" y="92.4" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(135, 5)">
+        <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g transform="translate(69, 257.4666666666667)" id="proc_2" class="component">
+      <rect width="160" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="80" y="15" text-anchor="middle" font-size="12px" fill="#000">Processor 2</text>
+      <rect x="-9" y="41" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="151" y="41" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(135, 5)">
+        <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g transform="translate(89, 97.4666666666667)" id="deep_1" class="component">
+      <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="12px" fill="#000">Deep Logic</text>
+      <rect x="131" y="14.666666666666668" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="131" y="47.33333333333334" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      </g>
+    </g>
+    <path d="M 338 126.20000000000005 L 248 126.20000000000005 L 248 121.13333333333335 L 238 121.13333333333335" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 238 153.80000000000004 L 338 153.80000000000004" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  <g transform="translate(1027, 182.00000000000003)" id="output_node" class="component">
+    <rect width="120" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="60" y="15" text-anchor="middle" font-size="12px" fill="#000">Output</text>
+    <rect x="-9" y="31" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(95, 5)">
+      <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    </g>
+  </g>
+  <path d="M 141 98.4666666666667 L 544 98.4666666666667 L 544 110.60000000000002 L 634 110.60000000000002" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 141 98.4666666666667 L 201 98.4666666666667 L 201 319.4666666666667 L 356 319.4666666666667" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 534 165.80000000000004 L 544 165.80000000000004 L 544 222.00000000000003 L 1018 222.00000000000003" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 534 319.4666666666667 L 928 319.4666666666667 L 928 222.00000000000003 L 1018 222.00000000000003" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
 </svg>
