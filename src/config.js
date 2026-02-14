@@ -27,7 +27,9 @@ module.exports = {
             stroke: '#333',
             strokeWidth: 1,
             defaultWidth: 15,
-            defaultHeight: 15
+            defaultHeight: 15,
+            broadenedWidth: 30, // For ports with multiple interfaces (N/S)
+            broadenedHeight: 30 // For ports with multiple interfaces (E/W)
         },
         edge: {
             stroke: '#333',

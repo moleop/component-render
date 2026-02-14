@@ -33,15 +33,14 @@ function preprocessGraph(node) {
 
             // If interfaces > 1, make the port "broader" along the edge to accommodate them
             const hasMultipleInterfaces = port.interfaces && port.interfaces.length > 1;
-            const broadenedSize = 30; // Double the default size
             
             if (hasMultipleInterfaces) {
                 if (isNorthSouth) {
                      // Along N/S edge, "broader" means wider
-                     port.width = Math.max(port.width, broadenedSize); 
+                     port.width = Math.max(port.width, config.styles.port.broadenedWidth); 
                 } else {
                      // Along E/W edge, "broader" means taller
-                     port.height = Math.max(port.height, broadenedSize);
+                     port.height = Math.max(port.height, config.styles.port.broadenedHeight);
                 }
             }
 
