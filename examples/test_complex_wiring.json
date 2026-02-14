@@ -1,0 +1,82 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered",
+    "elk.hierarchyHandling": "INCLUDE_CHILDREN"
+  },
+  "children": [
+    {
+      "id": "sysA",
+      "labels": [
+        {
+          "text": "System A"
+        }
+      ],
+      "children": [
+        {
+          "id": "cA1",
+          "width": 100,
+          "height": 80,
+          "labels": [
+            {
+              "text": "A1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "pA1",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sysB",
+      "labels": [
+        {
+          "text": "System B"
+        }
+      ],
+      "children": [
+        {
+          "id": "cB1",
+          "width": 100,
+          "height": 80,
+          "labels": [
+            {
+              "text": "B1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "pB1",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_cross",
+      "sources": [
+        "pA1"
+      ],
+      "targets": [
+        "pB1"
+      ]
+    }
+  ]
+}

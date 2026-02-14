@@ -18,27 +18,71 @@ function preprocessGraph(node) {
     // Configure ports for Components (leaf nodes)
     if (!isSubsystem && node.ports) {
         node.ports.forEach(port => {
-            // Default dimensions if missing
+            // Determine side (default to EAST if unknown, assuming layered right layout)
+            let side = 'EAST'; 
+            if (port.layoutOptions && port.layoutOptions['elk.port.side']) {
+                side = port.layoutOptions['elk.port.side'];
+            }
+            
+            const isNorthSouth = (side === 'NORTH' || side === 'SOUTH');
+            // Default assumes horizontal layout (EAST/WEST ports most common)
+
+            // Default dimensions
             if (!port.width) port.width = config.styles.port.defaultWidth;
             if (!port.height) port.height = config.styles.port.defaultHeight;
+
+            // If interfaces > 1, make the port "broader" along the edge to accommodate them
+            const hasMultipleInterfaces = port.interfaces && port.interfaces.length > 1;
+            const broadenedSize = 30; // Double the default size
+            
+            if (hasMultipleInterfaces) {
+                if (isNorthSouth) {
+                     // Along N/S edge, "broader" means wider
+                     port.width = Math.max(port.width, broadenedSize); 
+                } else {
+                     // Along E/W edge, "broader" means taller
+                     port.height = Math.max(port.height, broadenedSize);
+                }
+            }
 
             // Ensure layoutOptions exists
             if (!port.layoutOptions) port.layoutOptions = {};
 
-            // Set border offset to negative half of dimension to straddle the border
-            // This is the key to the UML port look
-            port.layoutOptions['elk.port.borderOffset'] = -port.width / 2;
+            // Set border offset to negative half of dimension perpendicular to the border
+            if (isNorthSouth) {
+                // Perpendicular is height
+                port.layoutOptions['elk.port.borderOffset'] = -port.height / 2;
+            } else {
+                // Perpendicular is width (East/West)
+                port.layoutOptions['elk.port.borderOffset'] = -port.width / 2;
+            }
         });
     }
 
     // Ensure root and subsystems use the layered algorithm if not specified
-    // (This was part of the original logic, preserving it here)
+    // Also inject generous default spacing to prevent overlap of interface symbols
     if (isSubsystem || !node.id) { // Root often has no ID or is just a container
          if (!node.layoutOptions) {
             node.layoutOptions = {};
         }
         if (!node.layoutOptions['elk.algorithm']) {
             node.layoutOptions['elk.algorithm'] = config.layout.algorithm;
+        }
+        
+        // Inject default spacing if not present
+        if (!node.layoutOptions['elk.spacing.nodeNode']) {
+            node.layoutOptions['elk.spacing.nodeNode'] = '100';
+        }
+        if (!node.layoutOptions['elk.layered.spacing.nodeNodeBetweenLayers']) {
+            node.layoutOptions['elk.layered.spacing.nodeNodeBetweenLayers'] = '150';
+        }
+        if (!node.layoutOptions['elk.layered.spacing.edgeNodeBetweenLayers']) {
+            node.layoutOptions['elk.layered.spacing.edgeNodeBetweenLayers'] = '80';
+        }
+        
+        // Ensure subsystems have padding so ports don't touch the border
+        if (node.id && !node.layoutOptions['elk.padding']) {
+            node.layoutOptions['elk.padding'] = '[top=40,left=40,bottom=40,right=40]';
         }
     }
 }

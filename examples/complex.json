@@ -20,8 +20,6 @@
       "ports": [
         {
           "id": "p_in_out",
-          "width": 30,
-          "height": 30,
           "layoutOptions": {
             "elk.port.side": "EAST"
           }
@@ -53,16 +51,12 @@
           "ports": [
             {
               "id": "p_filter_in",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "NORTH"
               }
             },
             {
               "id": "p_filter_out",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "SOUTH"
               }
@@ -81,16 +75,12 @@
           "ports": [
             {
               "id": "p_transform_in",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "NORTH"
               }
             },
             {
               "id": "p_transform_out",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "SOUTH"
               }
@@ -109,24 +99,7 @@
           ]
         }
       ],
-      "ports": [
-        {
-          "id": "p_sub_in",
-          "width": 30,
-          "height": 30,
-          "layoutOptions": {
-            "elk.port.side": "WEST"
-          }
-        },
-        {
-          "id": "p_sub_out",
-          "width": 30,
-          "height": 30,
-          "layoutOptions": {
-            "elk.port.side": "EAST"
-          }
-        }
-      ]
+      "ports": []
     },
     {
       "id": "output_block",
@@ -140,8 +113,6 @@
       "ports": [
         {
           "id": "p_out_in",
-          "width": 30,
-          "height": 30,
           "layoutOptions": {
             "elk.port.side": "WEST"
           }
@@ -156,31 +127,13 @@
         "p_in_out"
       ],
       "targets": [
-        "p_sub_in"
-      ]
-    },
-    {
-      "id": "e2",
-      "sources": [
-        "p_sub_in"
-      ],
-      "targets": [
         "p_filter_in"
-      ]
-    },
-    {
-      "id": "e3",
-      "sources": [
-        "p_transform_out"
-      ],
-      "targets": [
-        "p_sub_out"
       ]
     },
     {
       "id": "e4",
       "sources": [
-        "p_sub_out"
+        "p_transform_out"
       ],
       "targets": [
         "p_out_in"

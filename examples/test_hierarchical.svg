@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="300" viewBox="0 0 650 300" style="font-family: sans-serif;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <g transform="translate(40, 40)" id="sub_outer" class="subsystem">
+    <rect width="570" height="220" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="285" y="15" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">Outer Subsystem</text>
+    <g transform="translate(40, 40)" id="sub_inner" class="subsystem">
+      <rect width="207.5" height="140" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="103.75" y="15" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">Inner Subsystem</text>
+      <g transform="translate(40, 40)" id="comp_leaf" class="component">
+        <rect width="120" height="60" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+        <text x="60" y="30" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Leaf Component</text>
+        <line x1="120" y1="30" x2="150" y2="30" stroke="#333" stroke-width="1.5"/>
+        <circle cx="156" cy="30" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <text x="167" y="23" text-anchor="start" font-size="10px" fill="#000">IDeep</text>
+        <rect x="112.5" y="22.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+        <g transform="translate(95, 5)">
+          <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+          <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+          <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(410, 80)" id="comp_sibling" class="component">
+      <rect width="120" height="60" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="60" y="30" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Sibling Component</text>
+      <line x1="0" y1="30" x2="-30" y2="30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(-36, 30) rotate(180)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="-47" y="23" text-anchor="end" font-size="10px" fill="#000">IDeep</text>
+      <rect x="-7.5" y="22.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(95, 5)">
+        <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      </g>
+    </g>
+    <path d="M 207.5 110 L 402.5 110" fill="none" stroke="#333" stroke-width="2"/>
+  </g>
+</svg>

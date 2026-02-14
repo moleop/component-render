@@ -1,0 +1,88 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered",
+    "elk.hierarchyHandling": "INCLUDE_CHILDREN"
+  },
+  "children": [
+    {
+      "id": "sub_outer",
+      "labels": [
+        {
+          "text": "Outer Subsystem"
+        }
+      ],
+      "children": [
+        {
+          "id": "sub_inner",
+          "labels": [
+            {
+              "text": "Inner Subsystem"
+            }
+          ],
+          "children": [
+            {
+              "id": "comp_leaf",
+              "width": 120,
+              "height": 60,
+              "labels": [
+                {
+                  "text": "Leaf Component"
+                }
+              ],
+              "ports": [
+                {
+                  "id": "p_leaf_out",
+                  "layoutOptions": {
+                    "elk.port.side": "EAST"
+                  },
+                  "interfaces": [
+                    {
+                      "type": "provided",
+                      "label": "IDeep"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "comp_sibling",
+          "width": 120,
+          "height": 60,
+          "labels": [
+            {
+              "text": "Sibling Component"
+            }
+          ],
+          "ports": [
+            {
+              "id": "p_sibling_in",
+              "layoutOptions": {
+                "elk.port.side": "WEST"
+              },
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IDeep"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge_deep",
+          "sources": [
+            "p_leaf_out"
+          ],
+          "targets": [
+            "p_sibling_in"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -26,8 +26,8 @@ module.exports = {
             fill: '#ffffff',
             stroke: '#333',
             strokeWidth: 1,
-            defaultWidth: 12,
-            defaultHeight: 12
+            defaultWidth: 15,
+            defaultHeight: 15
         },
         edge: {
             stroke: '#333',
@@ -40,6 +40,17 @@ module.exports = {
             fill: '#ffffff',
             stroke: '#333',
             strokeWidth: 1.5
+        },
+        interface: {
+            stickLength: 30,
+            symbolSize: 6,
+            textOffset: 5,
+            gap: 15,
+            fill: '#ffffff',
+            stroke: '#333',
+            strokeWidth: 1.5,
+            labelFontSize: '10px',
+            labelFill: '#000'
         }
     }
 };

@@ -1,73 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1159" height="441.4666666666667" viewBox="0 0 1159 441.4666666666667" style="font-family: sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" width="1267.5" height="497.66666666666663" viewBox="0 0 1267.5 497.66666666666663" style="font-family: sans-serif;">
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
     </marker>
   </defs>
-  <g transform="translate(12, 58.4666666666667)" id="input_node" class="component">
+  <g transform="translate(40, 86.66666666666663)" id="input_node" class="component">
     <rect width="120" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-    <text x="60" y="15" text-anchor="middle" font-size="12px" fill="#000">Input</text>
-    <rect x="111" y="31" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <text x="60" y="40" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Input</text>
+    <line x1="120" y1="32.5" x2="150" y2="32.5" stroke="#333" stroke-width="1.5"/>
+    <circle cx="156" cy="32.5" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    <text x="167" y="35.5" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+    <line x1="120" y1="47.5" x2="150" y2="47.5" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(156, 47.5) rotate(0)">
+      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <text x="167" y="50.5" text-anchor="start" font-size="10px" fill="#000">ICtrl</text>
+    <rect x="112.5" y="25" width="15" height="30" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
     <g transform="translate(95, 5)">
       <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
       <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
       <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
     </g>
   </g>
-  <g transform="translate(296, 12)" id="sub_main" class="subsystem">
-    <rect width="567" height="417.4666666666667" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
-    <text x="283.5" y="15" text-anchor="middle" font-size="12px" fill="#000">Main Subsystem</text>
-    <g transform="translate(347, 80.00000000000003)" id="proc_1" class="component">
+  <g transform="translate(322.5, 40)" id="sub_main" class="subsystem">
+    <rect width="622.5" height="417.66666666666663" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="311.25" y="15" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">Main Subsystem</text>
+    <g transform="translate(402.5, 79.99999999999997)" id="proc_1" class="component">
       <rect width="160" height="120" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-      <text x="80" y="15" text-anchor="middle" font-size="12px" fill="#000">Processor 1</text>
-      <rect x="-9" y="9.6" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-      <rect x="-9" y="64.80000000000001" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-      <rect x="-9" y="37.2" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-      <rect x="-9" y="92.4" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <text x="80" y="60" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Processor 1</text>
+      <rect x="-7.5" y="12" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="-7.5" y="66" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="0" y1="46.5" x2="-30" y2="46.5" stroke="#333" stroke-width="1.5"/>
+      <circle cx="-36" cy="46.5" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="-47" y="39.5" text-anchor="end" font-size="10px" fill="#000">IData</text>
+      <rect x="-7.5" y="39" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="-7.5" y="93" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
       <g transform="translate(135, 5)">
         <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
         <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
         <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
       </g>
     </g>
-    <g transform="translate(69, 257.4666666666667)" id="proc_2" class="component">
+    <g transform="translate(67.5, 257.66666666666663)" id="proc_2" class="component">
       <rect width="160" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-      <text x="80" y="15" text-anchor="middle" font-size="12px" fill="#000">Processor 2</text>
-      <rect x="-9" y="41" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-      <rect x="151" y="41" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <text x="80" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Processor 2</text>
+      <rect x="-7.5" y="42.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="152.5" y="42.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
       <g transform="translate(135, 5)">
         <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
         <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
         <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
       </g>
     </g>
-    <g transform="translate(89, 97.4666666666667)" id="deep_1" class="component">
+    <g transform="translate(87.5, 97.66666666666663)" id="deep_1" class="component">
       <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-      <text x="70" y="15" text-anchor="middle" font-size="12px" fill="#000">Deep Logic</text>
-      <rect x="131" y="14.666666666666668" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-      <rect x="131" y="47.33333333333334" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <text x="70" y="40" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Deep Logic</text>
+      <line x1="140" y1="24.166666666666668" x2="170" y2="24.166666666666668" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(176, 24.166666666666668) rotate(0)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="187" y="17.166666666666668" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="132.5" y="16.666666666666668" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <rect x="132.5" y="48.333333333333336" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
       <g transform="translate(115, 5)">
         <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
         <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
         <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
       </g>
     </g>
-    <path d="M 338 126.20000000000005 L 248 126.20000000000005 L 248 121.13333333333335 L 238 121.13333333333335" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 238 153.80000000000004 L 338 153.80000000000004" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 395 126.49999999999997 L 315 126.49999999999997 L 315 121.83333333333329 L 235 121.83333333333329" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 235 153.49999999999997 L 395 153.49999999999997" fill="none" stroke="#333" stroke-width="2"/>
   </g>
-  <g transform="translate(1027, 182.00000000000003)" id="output_node" class="component">
+  <g transform="translate(1107.5, 209.99999999999997)" id="output_node" class="component">
     <rect width="120" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-    <text x="60" y="15" text-anchor="middle" font-size="12px" fill="#000">Output</text>
-    <rect x="-9" y="31" width="18" height="18" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <text x="60" y="40" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Output</text>
+    <rect x="-7.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
     <g transform="translate(95, 5)">
       <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
       <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
       <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
     </g>
   </g>
-  <path d="M 141 98.4666666666667 L 544 98.4666666666667 L 544 110.60000000000002 L 634 110.60000000000002" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <path d="M 141 98.4666666666667 L 201 98.4666666666667 L 201 319.4666666666667 L 356 319.4666666666667" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <path d="M 534 165.80000000000004 L 544 165.80000000000004 L 544 222.00000000000003 L 1018 222.00000000000003" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <path d="M 534 319.4666666666667 L 928 319.4666666666667 L 928 222.00000000000003 L 1018 222.00000000000003" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 167.5 126.66666666666663 L 637.5 126.66666666666663 L 637.5 139.49999999999997 L 717.5 139.49999999999997" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 167.5 126.66666666666663 L 227.5 126.66666666666663 L 227.5 347.66666666666663 L 382.5 347.66666666666663" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 557.5 193.49999999999997 L 637.5 193.49999999999997 L 637.5 249.99999999999997 L 1100 249.99999999999997" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 557.5 347.66666666666663 L 1010 347.66666666666663 L 1010 249.99999999999997 L 1100 249.99999999999997" fill="none" stroke="#333" stroke-width="2"/>
 </svg>

@@ -1,0 +1,69 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered",
+    "elk.direction": "RIGHT"
+  },
+  "children": [
+    {
+      "id": "hub",
+      "width": 150,
+      "height": 150,
+      "labels": [
+        {
+          "text": "Hub Component"
+        }
+      ],
+      "ports": [
+        {
+          "id": "pn",
+          "layoutOptions": {
+            "elk.port.side": "NORTH"
+          },
+          "interfaces": [
+            {
+              "type": "provided",
+              "label": "North"
+            }
+          ]
+        },
+        {
+          "id": "ps",
+          "layoutOptions": {
+            "elk.port.side": "SOUTH"
+          },
+          "interfaces": [
+            {
+              "type": "required",
+              "label": "South"
+            }
+          ]
+        },
+        {
+          "id": "pe",
+          "layoutOptions": {
+            "elk.port.side": "EAST"
+          },
+          "interfaces": [
+            {
+              "type": "provided",
+              "label": "East"
+            }
+          ]
+        },
+        {
+          "id": "pw",
+          "layoutOptions": {
+            "elk.port.side": "WEST"
+          },
+          "interfaces": [
+            {
+              "type": "required",
+              "label": "West"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

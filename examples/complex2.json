@@ -21,11 +21,19 @@
       "ports": [
         {
           "id": "p_in_1",
-          "width": 18,
-          "height": 18,
           "layoutOptions": {
             "elk.port.side": "EAST"
-          }
+          },
+          "interfaces": [
+            {
+              "type": "provided",
+              "label": "IInput"
+            },
+            {
+              "type": "required",
+              "label": "ICtrl"
+            }
+          ]
         }
       ]
     },
@@ -55,32 +63,30 @@
           "ports": [
             {
               "id": "p_p1_in1",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "WEST"
               }
             },
             {
               "id": "p_p1_in2",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "WEST"
               }
             },
             {
               "id": "p_p1_out1",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "EAST"
-              }
+              },
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IData"
+                }
+              ]
             },
             {
               "id": "p_p1_out2",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "EAST"
               }
@@ -99,16 +105,12 @@
           "ports": [
             {
               "id": "p_p2_in",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "WEST"
               }
             },
             {
               "id": "p_p2_out",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "EAST"
               }
@@ -127,23 +129,24 @@
           "ports": [
             {
               "id": "p_d1_in",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "WEST"
-              }
+              },
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
             },
             {
               "id": "p_d1_out",
-              "width": 18,
-              "height": 18,
               "layoutOptions": {
                 "elk.port.side": "EAST"
               }
             }
           ]
         }
- 
       ],
       "edges": [
         {
@@ -178,8 +181,6 @@
       "ports": [
         {
           "id": "p_out_1",
-          "width": 18,
-          "height": 18,
           "layoutOptions": {
             "elk.port.side": "WEST"
           }

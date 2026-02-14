@@ -1,0 +1,56 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered"
+  },
+  "children": [
+    {
+      "id": "mixed_comp",
+      "width": 140,
+      "height": 100,
+      "labels": [
+        {
+          "text": "Mixed Interfaces"
+        }
+      ],
+      "ports": [
+        {
+          "id": "p_mix",
+          "layoutOptions": {
+            "elk.port.side": "EAST"
+          },
+          "interfaces": [
+            {
+              "type": "provided",
+              "label": "Prov"
+            },
+            {
+              "type": "required",
+              "label": "Req"
+            }
+          ]
+        },
+        {
+          "id": "p_tri",
+          "layoutOptions": {
+            "elk.port.side": "WEST"
+          },
+          "interfaces": [
+            {
+              "type": "provided",
+              "label": "P1"
+            },
+            {
+              "type": "required",
+              "label": "R1"
+            },
+            {
+              "type": "provided",
+              "label": "P2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

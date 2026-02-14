@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="227.5" height="180" viewBox="0 0 227.5 180" style="font-family: sans-serif;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <g transform="translate(47.5, 40)" id="mixed_comp" class="component">
+    <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Mixed Interfaces</text>
+    <line x1="0" y1="64.16666666666667" x2="-30" y2="64.16666666666667" stroke="#333" stroke-width="1.5"/>
+    <circle cx="-36" cy="64.16666666666667" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    <text x="-47" y="67.16666666666667" text-anchor="end" font-size="10px" fill="#000">Prov</text>
+    <line x1="0" y1="79.16666666666667" x2="-30" y2="79.16666666666667" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(-36, 79.16666666666667) rotate(180)">
+      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <text x="-47" y="82.16666666666667" text-anchor="end" font-size="10px" fill="#000">Req</text>
+    <rect x="-7.5" y="56.66666666666667" width="15" height="30" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <line x1="0" y1="13.333333333333336" x2="-30" y2="13.333333333333336" stroke="#333" stroke-width="1.5"/>
+    <circle cx="-36" cy="13.333333333333336" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    <text x="-47" y="16.333333333333336" text-anchor="end" font-size="10px" fill="#000">P1</text>
+    <line x1="0" y1="28.333333333333336" x2="-30" y2="28.333333333333336" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(-36, 28.333333333333336) rotate(180)">
+      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <text x="-47" y="31.333333333333336" text-anchor="end" font-size="10px" fill="#000">R1</text>
+    <line x1="0" y1="43.333333333333336" x2="-30" y2="43.333333333333336" stroke="#333" stroke-width="1.5"/>
+    <circle cx="-36" cy="43.333333333333336" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    <text x="-47" y="46.333333333333336" text-anchor="end" font-size="10px" fill="#000">P2</text>
+    <rect x="-7.5" y="13.333333333333334" width="15" height="30" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(115, 5)">
+      <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
