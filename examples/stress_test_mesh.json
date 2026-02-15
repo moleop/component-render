@@ -17,8 +17,6 @@
       "children": [
         {
           "id": "sub1_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Core Comp 1"
@@ -27,8 +25,7 @@
           "ports": [
             {
               "id": "sub1_c1_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -38,8 +35,7 @@
             },
             {
               "id": "sub1_c1_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -49,8 +45,7 @@
             },
             {
               "id": "sub1_c1_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -60,8 +55,7 @@
             },
             {
               "id": "sub1_c1_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -73,8 +67,6 @@
         },
         {
           "id": "sub1_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Core Comp 2"
@@ -83,8 +75,7 @@
           "ports": [
             {
               "id": "sub1_c2_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -94,8 +85,7 @@
             },
             {
               "id": "sub1_c2_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -105,8 +95,7 @@
             },
             {
               "id": "sub1_c2_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -116,8 +105,7 @@
             },
             {
               "id": "sub1_c2_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -129,8 +117,6 @@
         },
         {
           "id": "sub1_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Core Comp 3"
@@ -139,8 +125,7 @@
           "ports": [
             {
               "id": "sub1_c3_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -150,8 +135,7 @@
             },
             {
               "id": "sub1_c3_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -161,8 +145,7 @@
             },
             {
               "id": "sub1_c3_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -172,8 +155,7 @@
             },
             {
               "id": "sub1_c3_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -185,8 +167,6 @@
         },
         {
           "id": "sub1_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Core Comp 4"
@@ -195,8 +175,7 @@
           "ports": [
             {
               "id": "sub1_c4_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -206,8 +185,7 @@
             },
             {
               "id": "sub1_c4_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -217,8 +195,7 @@
             },
             {
               "id": "sub1_c4_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -228,8 +205,7 @@
             },
             {
               "id": "sub1_c4_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -289,8 +265,6 @@
       "children": [
         {
           "id": "sub2_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Backup Comp 1"
@@ -299,8 +273,7 @@
           "ports": [
             {
               "id": "sub2_c1_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -310,8 +283,7 @@
             },
             {
               "id": "sub2_c1_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -321,8 +293,7 @@
             },
             {
               "id": "sub2_c1_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -332,8 +303,7 @@
             },
             {
               "id": "sub2_c1_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -345,8 +315,6 @@
         },
         {
           "id": "sub2_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Backup Comp 2"
@@ -355,8 +323,7 @@
           "ports": [
             {
               "id": "sub2_c2_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -366,8 +333,7 @@
             },
             {
               "id": "sub2_c2_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -377,8 +343,7 @@
             },
             {
               "id": "sub2_c2_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -388,8 +353,7 @@
             },
             {
               "id": "sub2_c2_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -401,8 +365,6 @@
         },
         {
           "id": "sub2_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Backup Comp 3"
@@ -411,8 +373,7 @@
           "ports": [
             {
               "id": "sub2_c3_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -422,8 +383,7 @@
             },
             {
               "id": "sub2_c3_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -433,8 +393,7 @@
             },
             {
               "id": "sub2_c3_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -444,8 +403,7 @@
             },
             {
               "id": "sub2_c3_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -457,8 +415,6 @@
         },
         {
           "id": "sub2_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Backup Comp 4"
@@ -467,8 +423,7 @@
           "ports": [
             {
               "id": "sub2_c4_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -478,8 +433,7 @@
             },
             {
               "id": "sub2_c4_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -489,8 +443,7 @@
             },
             {
               "id": "sub2_c4_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -500,8 +453,7 @@
             },
             {
               "id": "sub2_c4_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -561,8 +513,6 @@
       "children": [
         {
           "id": "sub3_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Analytics Comp 1"
@@ -571,8 +521,7 @@
           "ports": [
             {
               "id": "sub3_c1_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -582,8 +531,7 @@
             },
             {
               "id": "sub3_c1_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -593,8 +541,7 @@
             },
             {
               "id": "sub3_c1_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -604,8 +551,7 @@
             },
             {
               "id": "sub3_c1_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -617,8 +563,6 @@
         },
         {
           "id": "sub3_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Analytics Comp 2"
@@ -627,8 +571,7 @@
           "ports": [
             {
               "id": "sub3_c2_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -638,8 +581,7 @@
             },
             {
               "id": "sub3_c2_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -649,8 +591,7 @@
             },
             {
               "id": "sub3_c2_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -660,8 +601,7 @@
             },
             {
               "id": "sub3_c2_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -673,8 +613,6 @@
         },
         {
           "id": "sub3_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Analytics Comp 3"
@@ -683,8 +621,7 @@
           "ports": [
             {
               "id": "sub3_c3_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -694,8 +631,7 @@
             },
             {
               "id": "sub3_c3_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -705,8 +641,7 @@
             },
             {
               "id": "sub3_c3_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -716,8 +651,7 @@
             },
             {
               "id": "sub3_c3_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -729,8 +663,6 @@
         },
         {
           "id": "sub3_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Analytics Comp 4"
@@ -739,8 +671,7 @@
           "ports": [
             {
               "id": "sub3_c4_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -750,8 +681,7 @@
             },
             {
               "id": "sub3_c4_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -761,8 +691,7 @@
             },
             {
               "id": "sub3_c4_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -772,8 +701,7 @@
             },
             {
               "id": "sub3_c4_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -833,8 +761,6 @@
       "children": [
         {
           "id": "sub4_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "UI Backend Comp 1"
@@ -843,8 +769,7 @@
           "ports": [
             {
               "id": "sub4_c1_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -854,8 +779,7 @@
             },
             {
               "id": "sub4_c1_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -865,8 +789,7 @@
             },
             {
               "id": "sub4_c1_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -876,8 +799,7 @@
             },
             {
               "id": "sub4_c1_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -889,8 +811,6 @@
         },
         {
           "id": "sub4_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "UI Backend Comp 2"
@@ -899,8 +819,7 @@
           "ports": [
             {
               "id": "sub4_c2_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -910,8 +829,7 @@
             },
             {
               "id": "sub4_c2_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -921,8 +839,7 @@
             },
             {
               "id": "sub4_c2_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -932,8 +849,7 @@
             },
             {
               "id": "sub4_c2_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -945,8 +861,6 @@
         },
         {
           "id": "sub4_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "UI Backend Comp 3"
@@ -955,8 +869,7 @@
           "ports": [
             {
               "id": "sub4_c3_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -966,8 +879,7 @@
             },
             {
               "id": "sub4_c3_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -977,8 +889,7 @@
             },
             {
               "id": "sub4_c3_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -988,8 +899,7 @@
             },
             {
               "id": "sub4_c3_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -1001,8 +911,6 @@
         },
         {
           "id": "sub4_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "UI Backend Comp 4"
@@ -1011,8 +919,7 @@
           "ports": [
             {
               "id": "sub4_c4_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -1022,8 +929,7 @@
             },
             {
               "id": "sub4_c4_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -1033,8 +939,7 @@
             },
             {
               "id": "sub4_c4_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -1044,8 +949,7 @@
             },
             {
               "id": "sub4_c4_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",

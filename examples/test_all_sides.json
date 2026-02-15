@@ -7,8 +7,6 @@
   "children": [
     {
       "id": "hub",
-      "width": 150,
-      "height": 150,
       "labels": [
         {
           "text": "Hub Component"

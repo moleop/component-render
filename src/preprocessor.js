@@ -17,13 +17,10 @@ function preprocessGraph(node) {
 
     // Configure ports for Components (leaf nodes)
     if (!isSubsystem) {
-        // Enforce minimum dimensions for components
-        if (!node.width || node.width < config.styles.node.defaultWidth) {
-            node.width = config.styles.node.defaultWidth;
-        }
-        if (!node.height || node.height < config.styles.node.defaultHeight) {
-            node.height = config.styles.node.defaultHeight;
-        }
+        let northPorts = 0;
+        let southPorts = 0;
+        let eastPorts = 0;
+        let westPorts = 0;
 
         if (node.ports) {
             node.ports.forEach(port => {
@@ -32,6 +29,11 @@ function preprocessGraph(node) {
                 if (port.layoutOptions && port.layoutOptions['elk.port.side']) {
                     side = port.layoutOptions['elk.port.side'];
                 }
+
+                if (side === 'NORTH') northPorts++;
+                else if (side === 'SOUTH') southPorts++;
+                else if (side === 'WEST') westPorts++;
+                else eastPorts++; // Default to EAST
                 
                 const isNorthSouth = (side === 'NORTH' || side === 'SOUTH');
                 // Default assumes horizontal layout (EAST/WEST ports most common)
@@ -66,6 +68,23 @@ function preprocessGraph(node) {
                 }
             });
         }
+
+        // Calculate minimum dimensions based on ports
+        // We need enough space for the ports plus some padding.
+        // Assuming a certain spacing between ports (e.g., 20px) and some margin.
+        const portSpacing = 25; 
+        const margin = 20;
+
+        const requiredWidth = Math.max(northPorts, southPorts) * portSpacing + margin;
+        const requiredHeight = Math.max(eastPorts, westPorts) * portSpacing + margin;
+
+        // Enforce minimum dimensions for components
+        // Use the maximum of: existing width (if any), default width, or required width based on ports
+        const currentWidth = node.width || 0;
+        node.width = Math.max(currentWidth, config.styles.node.defaultWidth, requiredWidth);
+
+        const currentHeight = node.height || 0;
+        node.height = Math.max(currentHeight, config.styles.node.defaultHeight, requiredHeight);
     }
 
     // Ensure root and subsystems use the layered algorithm if not specified

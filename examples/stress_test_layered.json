@@ -16,8 +16,6 @@
       "children": [
         {
           "id": "subA_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer A C1"
@@ -26,8 +24,6 @@
           "ports": [
             {
               "id": "subA_c1_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -38,8 +34,6 @@
             },
             {
               "id": "subA_c1_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -50,8 +44,6 @@
             },
             {
               "id": "subA_c1_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -66,8 +58,6 @@
             },
             {
               "id": "subA_c1_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -84,8 +74,6 @@
         },
         {
           "id": "subA_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer A C2"
@@ -94,8 +82,6 @@
           "ports": [
             {
               "id": "subA_c2_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -106,8 +92,6 @@
             },
             {
               "id": "subA_c2_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -118,8 +102,6 @@
             },
             {
               "id": "subA_c2_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -134,8 +116,6 @@
             },
             {
               "id": "subA_c2_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -152,8 +132,6 @@
         },
         {
           "id": "subA_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer A C3"
@@ -162,8 +140,6 @@
           "ports": [
             {
               "id": "subA_c3_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -174,8 +150,6 @@
             },
             {
               "id": "subA_c3_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -186,8 +160,6 @@
             },
             {
               "id": "subA_c3_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -202,8 +174,6 @@
             },
             {
               "id": "subA_c3_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -220,8 +190,6 @@
         },
         {
           "id": "subA_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer A C4"
@@ -230,8 +198,6 @@
           "ports": [
             {
               "id": "subA_c4_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -242,8 +208,6 @@
             },
             {
               "id": "subA_c4_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -254,8 +218,6 @@
             },
             {
               "id": "subA_c4_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -270,8 +232,6 @@
             },
             {
               "id": "subA_c4_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -299,8 +259,6 @@
       "children": [
         {
           "id": "subB_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer B C1"
@@ -309,8 +267,6 @@
           "ports": [
             {
               "id": "subB_c1_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -321,8 +277,6 @@
             },
             {
               "id": "subB_c1_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -333,8 +287,6 @@
             },
             {
               "id": "subB_c1_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -349,8 +301,6 @@
             },
             {
               "id": "subB_c1_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -367,8 +317,6 @@
         },
         {
           "id": "subB_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer B C2"
@@ -377,8 +325,6 @@
           "ports": [
             {
               "id": "subB_c2_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -389,8 +335,6 @@
             },
             {
               "id": "subB_c2_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -401,8 +345,6 @@
             },
             {
               "id": "subB_c2_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -417,8 +359,6 @@
             },
             {
               "id": "subB_c2_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -435,8 +375,6 @@
         },
         {
           "id": "subB_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer B C3"
@@ -445,8 +383,6 @@
           "ports": [
             {
               "id": "subB_c3_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -457,8 +393,6 @@
             },
             {
               "id": "subB_c3_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -469,8 +403,6 @@
             },
             {
               "id": "subB_c3_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -485,8 +417,6 @@
             },
             {
               "id": "subB_c3_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -503,8 +433,6 @@
         },
         {
           "id": "subB_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer B C4"
@@ -513,8 +441,6 @@
           "ports": [
             {
               "id": "subB_c4_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -525,8 +451,6 @@
             },
             {
               "id": "subB_c4_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -537,8 +461,6 @@
             },
             {
               "id": "subB_c4_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -553,8 +475,6 @@
             },
             {
               "id": "subB_c4_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -582,8 +502,6 @@
       "children": [
         {
           "id": "subC_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer C C1"
@@ -592,8 +510,6 @@
           "ports": [
             {
               "id": "subC_c1_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -604,8 +520,6 @@
             },
             {
               "id": "subC_c1_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -616,8 +530,6 @@
             },
             {
               "id": "subC_c1_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -632,8 +544,6 @@
             },
             {
               "id": "subC_c1_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -650,8 +560,6 @@
         },
         {
           "id": "subC_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer C C2"
@@ -660,8 +568,6 @@
           "ports": [
             {
               "id": "subC_c2_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -672,8 +578,6 @@
             },
             {
               "id": "subC_c2_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -684,8 +588,6 @@
             },
             {
               "id": "subC_c2_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -700,8 +602,6 @@
             },
             {
               "id": "subC_c2_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -718,8 +618,6 @@
         },
         {
           "id": "subC_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer C C3"
@@ -728,8 +626,6 @@
           "ports": [
             {
               "id": "subC_c3_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -740,8 +636,6 @@
             },
             {
               "id": "subC_c3_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -752,8 +646,6 @@
             },
             {
               "id": "subC_c3_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -768,8 +660,6 @@
             },
             {
               "id": "subC_c3_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -786,8 +676,6 @@
         },
         {
           "id": "subC_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer C C4"
@@ -796,8 +684,6 @@
           "ports": [
             {
               "id": "subC_c4_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -808,8 +694,6 @@
             },
             {
               "id": "subC_c4_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -820,8 +704,6 @@
             },
             {
               "id": "subC_c4_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -836,8 +718,6 @@
             },
             {
               "id": "subC_c4_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -865,8 +745,6 @@
       "children": [
         {
           "id": "subD_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer D C1"
@@ -875,8 +753,6 @@
           "ports": [
             {
               "id": "subD_c1_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -887,8 +763,6 @@
             },
             {
               "id": "subD_c1_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -899,8 +773,6 @@
             },
             {
               "id": "subD_c1_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -915,8 +787,6 @@
             },
             {
               "id": "subD_c1_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -933,8 +803,6 @@
         },
         {
           "id": "subD_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer D C2"
@@ -943,8 +811,6 @@
           "ports": [
             {
               "id": "subD_c2_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -955,8 +821,6 @@
             },
             {
               "id": "subD_c2_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -967,8 +831,6 @@
             },
             {
               "id": "subD_c2_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -983,8 +845,6 @@
             },
             {
               "id": "subD_c2_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -1001,8 +861,6 @@
         },
         {
           "id": "subD_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer D C3"
@@ -1011,8 +869,6 @@
           "ports": [
             {
               "id": "subD_c3_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -1023,8 +879,6 @@
             },
             {
               "id": "subD_c3_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -1035,8 +889,6 @@
             },
             {
               "id": "subD_c3_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -1051,8 +903,6 @@
             },
             {
               "id": "subD_c3_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {
@@ -1069,8 +919,6 @@
         },
         {
           "id": "subD_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Layer D C4"
@@ -1079,8 +927,6 @@
           "ports": [
             {
               "id": "subD_c4_pIn",
-              "width": 15,
-              "height": 15,
               "side": "WEST",
               "interfaces": [
                 {
@@ -1091,8 +937,6 @@
             },
             {
               "id": "subD_c4_pOut",
-              "width": 15,
-              "height": 15,
               "side": "EAST",
               "interfaces": [
                 {
@@ -1103,8 +947,6 @@
             },
             {
               "id": "subD_c4_pMix",
-              "width": 15,
-              "height": 15,
               "side": "NORTH",
               "interfaces": [
                 {
@@ -1119,8 +961,6 @@
             },
             {
               "id": "subD_c4_pMix2",
-              "width": 15,
-              "height": 15,
               "side": "SOUTH",
               "interfaces": [
                 {

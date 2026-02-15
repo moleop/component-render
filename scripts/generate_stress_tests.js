@@ -5,19 +5,15 @@ const path = require('path');
 function createComponent(id, label) {
     return {
         id: id,
-        width: 140, 
-        height: 100,
         labels: [{ text: label }],
         ports: [
             // Standard Input
-            { id: `${id}_pIn`, width: 15, height: 15, side: "WEST", interfaces: [{ type: 'provided', label: 'In' }] },
+            { id: `${id}_pIn`, side: "WEST", interfaces: [{ type: 'provided', label: 'In' }] },
             // Standard Output
-            { id: `${id}_pOut`, width: 15, height: 15, side: "EAST", interfaces: [{ type: 'required', label: 'Out' }] },
+            { id: `${id}_pOut`, side: "EAST", interfaces: [{ type: 'required', label: 'Out' }] },
             // Mixed Interface Port (Bi-directional/Complex)
             { 
                 id: `${id}_pMix`, 
-                width: 15, 
-                height: 15, 
                 side: "NORTH", 
                 interfaces: [
                     { type: 'provided', label: 'Prov' },
@@ -26,9 +22,7 @@ function createComponent(id, label) {
             },
             // Another Mixed Port
             { 
-                id: `${id}_pMix2`, 
-                width: 15, 
-                height: 15, 
+                id: `${id}_pMix2`,  
                 side: "SOUTH", 
                 interfaces: [
                     { type: 'provided', label: 'Status' },

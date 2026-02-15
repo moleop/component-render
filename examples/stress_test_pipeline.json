@@ -16,8 +16,6 @@
       "children": [
         {
           "id": "subA_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem A Comp 1"
@@ -26,8 +24,7 @@
           "ports": [
             {
               "id": "subA_c1_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -37,8 +34,7 @@
             },
             {
               "id": "subA_c1_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -48,8 +44,7 @@
             },
             {
               "id": "subA_c1_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -59,8 +54,7 @@
             },
             {
               "id": "subA_c1_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -72,8 +66,6 @@
         },
         {
           "id": "subA_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem A Comp 2"
@@ -82,8 +74,7 @@
           "ports": [
             {
               "id": "subA_c2_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -93,8 +84,7 @@
             },
             {
               "id": "subA_c2_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -104,8 +94,7 @@
             },
             {
               "id": "subA_c2_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -115,8 +104,7 @@
             },
             {
               "id": "subA_c2_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -128,8 +116,6 @@
         },
         {
           "id": "subA_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem A Comp 3"
@@ -138,8 +124,7 @@
           "ports": [
             {
               "id": "subA_c3_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -149,8 +134,7 @@
             },
             {
               "id": "subA_c3_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -160,8 +144,7 @@
             },
             {
               "id": "subA_c3_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -171,8 +154,7 @@
             },
             {
               "id": "subA_c3_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -184,8 +166,6 @@
         },
         {
           "id": "subA_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem A Comp 4"
@@ -194,8 +174,7 @@
           "ports": [
             {
               "id": "subA_c4_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -205,8 +184,7 @@
             },
             {
               "id": "subA_c4_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -216,8 +194,7 @@
             },
             {
               "id": "subA_c4_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -227,8 +204,7 @@
             },
             {
               "id": "subA_c4_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -288,8 +264,6 @@
       "children": [
         {
           "id": "subB_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem B Comp 1"
@@ -298,8 +272,7 @@
           "ports": [
             {
               "id": "subB_c1_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -309,8 +282,7 @@
             },
             {
               "id": "subB_c1_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -320,8 +292,7 @@
             },
             {
               "id": "subB_c1_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -331,8 +302,7 @@
             },
             {
               "id": "subB_c1_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -344,8 +314,6 @@
         },
         {
           "id": "subB_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem B Comp 2"
@@ -354,8 +322,7 @@
           "ports": [
             {
               "id": "subB_c2_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -365,8 +332,7 @@
             },
             {
               "id": "subB_c2_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -376,8 +342,7 @@
             },
             {
               "id": "subB_c2_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -387,8 +352,7 @@
             },
             {
               "id": "subB_c2_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -400,8 +364,6 @@
         },
         {
           "id": "subB_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem B Comp 3"
@@ -410,8 +372,7 @@
           "ports": [
             {
               "id": "subB_c3_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -421,8 +382,7 @@
             },
             {
               "id": "subB_c3_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -432,8 +392,7 @@
             },
             {
               "id": "subB_c3_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -443,8 +402,7 @@
             },
             {
               "id": "subB_c3_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -456,8 +414,6 @@
         },
         {
           "id": "subB_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem B Comp 4"
@@ -466,8 +422,7 @@
           "ports": [
             {
               "id": "subB_c4_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -477,8 +432,7 @@
             },
             {
               "id": "subB_c4_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -488,8 +442,7 @@
             },
             {
               "id": "subB_c4_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -499,8 +452,7 @@
             },
             {
               "id": "subB_c4_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -560,8 +512,6 @@
       "children": [
         {
           "id": "subC_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem C Comp 1"
@@ -570,8 +520,7 @@
           "ports": [
             {
               "id": "subC_c1_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -581,8 +530,7 @@
             },
             {
               "id": "subC_c1_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -592,8 +540,7 @@
             },
             {
               "id": "subC_c1_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -603,8 +550,7 @@
             },
             {
               "id": "subC_c1_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -616,8 +562,6 @@
         },
         {
           "id": "subC_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem C Comp 2"
@@ -626,8 +570,7 @@
           "ports": [
             {
               "id": "subC_c2_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -637,8 +580,7 @@
             },
             {
               "id": "subC_c2_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -648,8 +590,7 @@
             },
             {
               "id": "subC_c2_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -659,8 +600,7 @@
             },
             {
               "id": "subC_c2_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -672,8 +612,6 @@
         },
         {
           "id": "subC_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem C Comp 3"
@@ -682,8 +620,7 @@
           "ports": [
             {
               "id": "subC_c3_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -693,8 +630,7 @@
             },
             {
               "id": "subC_c3_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -704,8 +640,7 @@
             },
             {
               "id": "subC_c3_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -715,8 +650,7 @@
             },
             {
               "id": "subC_c3_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -728,8 +662,6 @@
         },
         {
           "id": "subC_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem C Comp 4"
@@ -738,8 +670,7 @@
           "ports": [
             {
               "id": "subC_c4_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -749,8 +680,7 @@
             },
             {
               "id": "subC_c4_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -760,8 +690,7 @@
             },
             {
               "id": "subC_c4_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -771,8 +700,7 @@
             },
             {
               "id": "subC_c4_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -832,8 +760,6 @@
       "children": [
         {
           "id": "subD_c1",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem D Comp 1"
@@ -842,8 +768,7 @@
           "ports": [
             {
               "id": "subD_c1_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -853,8 +778,7 @@
             },
             {
               "id": "subD_c1_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -864,8 +788,7 @@
             },
             {
               "id": "subD_c1_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -875,8 +798,7 @@
             },
             {
               "id": "subD_c1_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -888,8 +810,6 @@
         },
         {
           "id": "subD_c2",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem D Comp 2"
@@ -898,8 +818,7 @@
           "ports": [
             {
               "id": "subD_c2_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -909,8 +828,7 @@
             },
             {
               "id": "subD_c2_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -920,8 +838,7 @@
             },
             {
               "id": "subD_c2_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -931,8 +848,7 @@
             },
             {
               "id": "subD_c2_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -944,8 +860,6 @@
         },
         {
           "id": "subD_c3",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem D Comp 3"
@@ -954,8 +868,7 @@
           "ports": [
             {
               "id": "subD_c3_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -965,8 +878,7 @@
             },
             {
               "id": "subD_c3_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -976,8 +888,7 @@
             },
             {
               "id": "subD_c3_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -987,8 +898,7 @@
             },
             {
               "id": "subD_c3_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -1000,8 +910,6 @@
         },
         {
           "id": "subD_c4",
-          "width": 140,
-          "height": 100,
           "labels": [
             {
               "text": "Subsystem D Comp 4"
@@ -1010,8 +918,7 @@
           "ports": [
             {
               "id": "subD_c4_p1",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -1021,8 +928,7 @@
             },
             {
               "id": "subD_c4_p2",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",
@@ -1032,8 +938,7 @@
             },
             {
               "id": "subD_c4_p3",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "provided",
@@ -1043,8 +948,7 @@
             },
             {
               "id": "subD_c4_p4",
-              "width": 15,
-              "height": 15,
+
               "interfaces": [
                 {
                   "type": "required",

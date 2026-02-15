@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="542.5" height="380" viewBox="0 0 542.5 380" style="font-family: sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" width="532.5" height="200" viewBox="0 0 532.5 200" style="font-family: sans-serif;">
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
     </marker>
   </defs>
   <g transform="translate(47.5, 40)" id="comp_dense" class="component">
-    <rect width="150" height="300" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-    <text x="75" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
-    <text x="75" y="150" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Dense Interface Node</text>
-    <line x1="0" y1="82.5" x2="-30" y2="82.5" stroke="#333" stroke-width="1.5"/>
-    <g transform="translate(-36, 82.5) rotate(180)">
-      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
-    </g>
-    <text x="-47" y="75.5" text-anchor="end" font-size="10px" fill="#000">Req1</text>
-    <rect x="-7.5" y="75" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-    <line x1="0" y1="127.5" x2="-30" y2="127.5" stroke="#333" stroke-width="1.5"/>
-    <g transform="translate(-36, 127.5) rotate(180)">
-      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
-    </g>
-    <text x="-47" y="120.5" text-anchor="end" font-size="10px" fill="#000">Req2</text>
-    <rect x="-7.5" y="120" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-    <line x1="0" y1="172.5" x2="-30" y2="172.5" stroke="#333" stroke-width="1.5"/>
-    <g transform="translate(-36, 172.5) rotate(180)">
-      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
-    </g>
-    <text x="-47" y="165.5" text-anchor="end" font-size="10px" fill="#000">Req3</text>
-    <rect x="-7.5" y="165" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-    <line x1="0" y1="217.5" x2="-30" y2="217.5" stroke="#333" stroke-width="1.5"/>
-    <g transform="translate(-36, 217.5) rotate(180)">
-      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
-    </g>
-    <text x="-47" y="210.5" text-anchor="end" font-size="10px" fill="#000">Req4</text>
-    <rect x="-7.5" y="210" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-    <line x1="150" y1="150" x2="180" y2="150" stroke="#333" stroke-width="1.5"/>
-    <circle cx="186" cy="150" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-    <text x="197" y="143" text-anchor="start" font-size="10px" fill="#000">Prov1</text>
-    <rect x="142.5" y="142.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-    <line x1="0" y1="262.5" x2="-30" y2="262.5" stroke="#333" stroke-width="1.5"/>
-    <circle cx="-36" cy="262.5" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-    <text x="-47" y="255.5" text-anchor="end" font-size="10px" fill="#000">Prov2</text>
-    <rect x="-7.5" y="255" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-    <line x1="0" y1="37.5" x2="-30" y2="37.5" stroke="#333" stroke-width="1.5"/>
-    <circle cx="-36" cy="37.5" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-    <text x="-47" y="30.5" text-anchor="end" font-size="10px" fill="#000">Prov3</text>
-    <rect x="-7.5" y="30" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-    <g transform="translate(125, 5)">
-      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
-      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
-      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
-    </g>
-  </g>
-  <g transform="translate(362.5, 140)" id="comp_client" class="component">
-    <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <rect width="140" height="120" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
     <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
-    <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Client</text>
-    <line x1="0" y1="50" x2="-30" y2="50" stroke="#333" stroke-width="1.5"/>
-    <g transform="translate(-36, 50) rotate(180)">
+    <text x="70" y="60" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Dense Interface Node</text>
+    <line x1="0" y1="31.07142857142857" x2="-30" y2="31.07142857142857" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(-36, 31.07142857142857) rotate(180)">
       <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
     </g>
-    <text x="-47" y="43" text-anchor="end" font-size="10px" fill="#000">ClientReq</text>
-    <rect x="-7.5" y="42.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <text x="-47" y="24.07142857142857" text-anchor="end" font-size="10px" fill="#000">Req1</text>
+    <rect x="-7.5" y="23.57142857142857" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <line x1="0" y1="50.357142857142854" x2="-30" y2="50.357142857142854" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(-36, 50.357142857142854) rotate(180)">
+      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <text x="-47" y="43.357142857142854" text-anchor="end" font-size="10px" fill="#000">Req2</text>
+    <rect x="-7.5" y="42.857142857142854" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <line x1="0" y1="69.64285714285714" x2="-30" y2="69.64285714285714" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(-36, 69.64285714285714) rotate(180)">
+      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <text x="-47" y="62.64285714285714" text-anchor="end" font-size="10px" fill="#000">Req3</text>
+    <rect x="-7.5" y="62.14285714285714" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <line x1="0" y1="88.92857142857142" x2="-30" y2="88.92857142857142" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(-36, 88.92857142857142) rotate(180)">
+      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <text x="-47" y="81.92857142857142" text-anchor="end" font-size="10px" fill="#000">Req4</text>
+    <rect x="-7.5" y="81.42857142857142" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <line x1="140" y1="60" x2="170" y2="60" stroke="#333" stroke-width="1.5"/>
+    <circle cx="176" cy="60" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    <text x="187" y="53" text-anchor="start" font-size="10px" fill="#000">Prov1</text>
+    <rect x="132.5" y="52.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <line x1="0" y1="108.2142857142857" x2="-30" y2="108.2142857142857" stroke="#333" stroke-width="1.5"/>
+    <circle cx="-36" cy="108.2142857142857" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    <text x="-47" y="101.2142857142857" text-anchor="end" font-size="10px" fill="#000">Prov2</text>
+    <rect x="-7.5" y="100.7142857142857" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <line x1="0" y1="11.785714285714285" x2="-30" y2="11.785714285714285" stroke="#333" stroke-width="1.5"/>
+    <circle cx="-36" cy="11.785714285714285" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    <text x="-47" y="4.785714285714285" text-anchor="end" font-size="10px" fill="#000">Prov3</text>
+    <rect x="-7.5" y="4.285714285714286" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
     <g transform="translate(115, 5)">
       <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
       <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
       <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
     </g>
   </g>
-  <path d="M 205 190 L 355 190" fill="none" stroke="#333" stroke-width="2"/>
+  <g transform="translate(352.5, 60)" id="comp_client" class="component">
+    <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+    <text x="70" y="40" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Client</text>
+    <line x1="0" y1="40" x2="-30" y2="40" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(-36, 40) rotate(180)">
+      <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <text x="-47" y="33" text-anchor="end" font-size="10px" fill="#000">ClientReq</text>
+    <rect x="-7.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(115, 5)">
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+    </g>
+  </g>
+  <path d="M 195 100 L 345 100" fill="none" stroke="#333" stroke-width="2"/>
 </svg>

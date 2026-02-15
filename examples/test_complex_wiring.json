@@ -15,8 +15,6 @@
       "children": [
         {
           "id": "cA1",
-          "width": 100,
-          "height": 80,
           "labels": [
             {
               "text": "A1"
@@ -46,8 +44,6 @@
       "children": [
         {
           "id": "cB1",
-          "width": 100,
-          "height": 80,
           "labels": [
             {
               "text": "B1"

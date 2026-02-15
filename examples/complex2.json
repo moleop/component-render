@@ -11,8 +11,6 @@
   "children": [
     {
       "id": "input_node",
-      "width": 120,
-      "height": 80,
       "labels": [
         {
           "text": "Input"
@@ -47,8 +45,6 @@
       "children": [
         {
           "id": "proc_1",
-          "width": 160,
-          "height": 120,
           "labels": [
             {
               "text": "Processor 1"
@@ -89,8 +85,6 @@
         },
         {
           "id": "proc_2",
-          "width": 160,
-          "height": 100,
           "labels": [
             {
               "text": "Processor 2"
@@ -113,8 +107,6 @@
         },
         {
           "id": "deep_1",
-          "width": 140,
-          "height": 80,
           "labels": [
             {
               "text": "Deep Logic"
@@ -174,8 +166,6 @@
     },
     {
       "id": "output_node",
-      "width": 120,
-      "height": 80,
       "labels": [
         {
           "text": "Output"
