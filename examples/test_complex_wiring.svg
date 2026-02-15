@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="615" height="240" viewBox="0 0 615 240" style="font-family: sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" width="695" height="240" viewBox="0 0 695 240" style="font-family: sans-serif;">
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
     </marker>
   </defs>
   <g transform="translate(40, 40)" id="sysA" class="subsystem">
-    <rect width="187.5" height="160" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
-    <text x="93.75" y="15" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">System A</text>
+    <rect width="227.5" height="160" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="113.75" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Subsystem&gt;&gt;</text>
+    <text x="113.75" y="30" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">System A</text>
     <g transform="translate(40, 40)" id="cA1" class="component">
-      <rect width="100" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-      <text x="50" y="40" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">A1</text>
-      <line x1="100" y1="40" x2="130" y2="40" stroke="#333" stroke-width="1.5"/>
-      <circle cx="136" cy="40" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-      <text x="147" y="33" text-anchor="start" font-size="10px" fill="#000">IA</text>
-      <rect x="92.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-      <g transform="translate(75, 5)">
-        <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="40" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">A1</text>
+      <line x1="140" y1="40" x2="170" y2="40" stroke="#333" stroke-width="1.5"/>
+      <circle cx="176" cy="40" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="187" y="33" text-anchor="start" font-size="10px" fill="#000">IA</text>
+      <rect x="132.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
       </g>
     </g>
   </g>
-  <g transform="translate(387.5, 40)" id="sysB" class="subsystem">
-    <rect width="187.5" height="160" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
-    <text x="93.75" y="15" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">System B</text>
+  <g transform="translate(427.5, 40)" id="sysB" class="subsystem">
+    <rect width="227.5" height="160" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="113.75" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Subsystem&gt;&gt;</text>
+    <text x="113.75" y="30" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">System B</text>
     <g transform="translate(47.5, 40)" id="cB1" class="component">
-      <rect width="100" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
-      <text x="50" y="40" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">B1</text>
+      <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="40" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">B1</text>
       <line x1="0" y1="40" x2="-30" y2="40" stroke="#333" stroke-width="1.5"/>
       <g transform="translate(-36, 40) rotate(180)">
         <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
       </g>
       <text x="-47" y="33" text-anchor="end" font-size="10px" fill="#000">IA</text>
       <rect x="-7.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-      <g transform="translate(75, 5)">
-        <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
       </g>
     </g>
   </g>
-  <path d="M 187.5 120 L 427.5 120" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 227.5 120 L 467.5 120" fill="none" stroke="#333" stroke-width="2"/>
 </svg>

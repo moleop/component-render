@@ -7,6 +7,7 @@
   </defs>
   <g transform="translate(47.5, 40)" id="mixed_comp" class="component">
     <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
     <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Mixed Interfaces</text>
     <line x1="0" y1="64.16666666666667" x2="-30" y2="64.16666666666667" stroke="#333" stroke-width="1.5"/>
     <circle cx="-36" cy="64.16666666666667" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
@@ -30,9 +31,9 @@
     <text x="-47" y="46.333333333333336" text-anchor="end" font-size="10px" fill="#000">P2</text>
     <rect x="-7.5" y="13.333333333333334" width="15" height="30" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
     <g transform="translate(115, 5)">
-      <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
     </g>
   </g>
 </svg>

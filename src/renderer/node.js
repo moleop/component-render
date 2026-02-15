@@ -54,6 +54,9 @@ function renderSubsystem(parent, node) {
         });
     }
 
+    // Render Stereotype
+    renderStereotype(group, '<<Subsystem>>', width, 15);
+
     // Render Label
     renderLabel(group, node, width, height, false);
 
@@ -97,6 +100,9 @@ function renderComponent(parent, node) {
         });
     }
 
+    // Render Stereotype
+    renderStereotype(group, '<<Component>>', width, 15);
+
     // Render Label
     renderLabel(group, node, width, height, true);
 
@@ -122,7 +128,7 @@ function renderUMLSymbol(group, nodeWidth) {
     // Main box
     symbolGroup.ele('rect', {
         x: 0, y: 0,
-        width: 20, height: 16,
+        width: 16, height: 16,
         fill: config.styles.symbol.fill,
         stroke: config.styles.symbol.stroke,
         'stroke-width': config.styles.symbol.strokeWidth
@@ -147,6 +153,16 @@ function renderUMLSymbol(group, nodeWidth) {
     });
 }
 
+function renderStereotype(group, text, nodeWidth, y) {
+    group.ele('text', {
+        x: nodeWidth / 2,
+        y: y,
+        'text-anchor': 'middle',
+        'font-size': config.styles.stereotype.fontSize || '10px',
+        fill: config.styles.stereotype.fill || '#000'
+    }).txt(text);
+}
+
 function renderLabel(group, node, nodeWidth, nodeHeight, isComponent = false) {
     if (node.labels && node.labels.length > 0) {
         node.labels.forEach(label => {
@@ -166,7 +182,7 @@ function renderLabel(group, node, nodeWidth, nodeHeight, isComponent = false) {
                 } else {
                     // Top (Subsystem)
                     lx = (nodeWidth || 0) / 2;
-                    ly = 15; // A bit from the top
+                    ly = 30; // Shifted down to accommodate stereotype at y=15
                 }
             } else {
                  lx = (label.x || 0) + label.width / 2;

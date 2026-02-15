@@ -7,49 +7,54 @@
   </defs>
   <g transform="translate(40, 40)" id="input_block" class="component">
     <rect width="180" height="200" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="90" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
     <text x="90" y="100" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Input Block</text>
     <rect x="172.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
     <g transform="translate(155, 5)">
-      <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
     </g>
   </g>
   <g transform="translate(382.5, 50)" id="process_subsystem" class="subsystem">
     <rect width="540" height="160" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
-    <text x="270" y="15" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">Processing Subsystem</text>
+    <text x="270" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Subsystem&gt;&gt;</text>
+    <text x="270" y="30" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">Processing Subsystem</text>
     <g transform="translate(27.5, 40)" id="filter" class="component">
       <rect width="160" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="80" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
       <text x="80" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Filter</text>
       <rect x="-7.5" y="42.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
       <rect x="152.5" y="42.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
       <g transform="translate(135, 5)">
-        <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
       </g>
     </g>
     <g transform="translate(352.5, 40)" id="transform" class="component">
       <rect width="160" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="80" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
       <text x="80" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Transform</text>
       <rect x="-7.5" y="42.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
       <rect x="152.5" y="42.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
       <g transform="translate(135, 5)">
-        <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
       </g>
     </g>
     <path d="M 195 90 L 345 90" fill="none" stroke="#333" stroke-width="2"/>
   </g>
   <g transform="translate(1085, 60)" id="output_block" class="component">
     <rect width="180" height="160" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="90" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
     <text x="90" y="80" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Output Block</text>
     <rect x="-7.5" y="72.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
     <g transform="translate(155, 5)">
-      <rect x="0" y="0" width="20" height="16" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
     </g>
   </g>
   <path d="M 227.5 140 L 402.5 140" fill="none" stroke="#333" stroke-width="2"/>

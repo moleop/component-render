@@ -1,0 +1,1163 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered",
+    "elk.spacing.nodeNode": "80",
+    "elk.layered.spacing.nodeNodeBetweenLayers": "120"
+  },
+  "children": [
+    {
+      "id": "subA",
+      "labels": [
+        {
+          "text": "Subsystem A"
+        }
+      ],
+      "children": [
+        {
+          "id": "subA_c1",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem A Comp 1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subA_c1_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subA_c1_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subA_c1_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subA_c1_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subA_c2",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem A Comp 2"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subA_c2_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subA_c2_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subA_c2_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subA_c2_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subA_c3",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem A Comp 3"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subA_c3_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subA_c3_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subA_c3_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subA_c3_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subA_c4",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem A Comp 4"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subA_c4_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subA_c4_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subA_c4_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subA_c4_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "subA_e1",
+          "sources": [
+            "subA_c1_p3"
+          ],
+          "targets": [
+            "subA_c2_p1"
+          ]
+        },
+        {
+          "id": "subA_e2",
+          "sources": [
+            "subA_c2_p3"
+          ],
+          "targets": [
+            "subA_c3_p1"
+          ]
+        },
+        {
+          "id": "subA_e3",
+          "sources": [
+            "subA_c3_p3"
+          ],
+          "targets": [
+            "subA_c4_p1"
+          ]
+        },
+        {
+          "id": "subA_e4",
+          "sources": [
+            "subA_c4_p2"
+          ],
+          "targets": [
+            "subA_c1_p2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subB",
+      "labels": [
+        {
+          "text": "Subsystem B"
+        }
+      ],
+      "children": [
+        {
+          "id": "subB_c1",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem B Comp 1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subB_c1_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subB_c1_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subB_c1_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subB_c1_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subB_c2",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem B Comp 2"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subB_c2_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subB_c2_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subB_c2_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subB_c2_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subB_c3",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem B Comp 3"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subB_c3_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subB_c3_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subB_c3_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subB_c3_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subB_c4",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem B Comp 4"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subB_c4_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subB_c4_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subB_c4_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subB_c4_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "subB_e1",
+          "sources": [
+            "subB_c1_p3"
+          ],
+          "targets": [
+            "subB_c2_p1"
+          ]
+        },
+        {
+          "id": "subB_e2",
+          "sources": [
+            "subB_c2_p3"
+          ],
+          "targets": [
+            "subB_c3_p1"
+          ]
+        },
+        {
+          "id": "subB_e3",
+          "sources": [
+            "subB_c3_p3"
+          ],
+          "targets": [
+            "subB_c4_p1"
+          ]
+        },
+        {
+          "id": "subB_e4",
+          "sources": [
+            "subB_c4_p2"
+          ],
+          "targets": [
+            "subB_c1_p2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subC",
+      "labels": [
+        {
+          "text": "Subsystem C"
+        }
+      ],
+      "children": [
+        {
+          "id": "subC_c1",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem C Comp 1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subC_c1_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subC_c1_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subC_c1_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subC_c1_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subC_c2",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem C Comp 2"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subC_c2_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subC_c2_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subC_c2_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subC_c2_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subC_c3",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem C Comp 3"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subC_c3_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subC_c3_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subC_c3_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subC_c3_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subC_c4",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem C Comp 4"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subC_c4_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subC_c4_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subC_c4_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subC_c4_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "subC_e1",
+          "sources": [
+            "subC_c1_p3"
+          ],
+          "targets": [
+            "subC_c2_p1"
+          ]
+        },
+        {
+          "id": "subC_e2",
+          "sources": [
+            "subC_c2_p3"
+          ],
+          "targets": [
+            "subC_c3_p1"
+          ]
+        },
+        {
+          "id": "subC_e3",
+          "sources": [
+            "subC_c3_p3"
+          ],
+          "targets": [
+            "subC_c4_p1"
+          ]
+        },
+        {
+          "id": "subC_e4",
+          "sources": [
+            "subC_c4_p2"
+          ],
+          "targets": [
+            "subC_c1_p2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subD",
+      "labels": [
+        {
+          "text": "Subsystem D"
+        }
+      ],
+      "children": [
+        {
+          "id": "subD_c1",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem D Comp 1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subD_c1_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subD_c1_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subD_c1_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subD_c1_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subD_c2",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem D Comp 2"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subD_c2_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subD_c2_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subD_c2_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subD_c2_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subD_c3",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem D Comp 3"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subD_c3_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subD_c3_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subD_c3_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subD_c3_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subD_c4",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Subsystem D Comp 4"
+            }
+          ],
+          "ports": [
+            {
+              "id": "subD_c4_p1",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IInput"
+                }
+              ]
+            },
+            {
+              "id": "subD_c4_p2",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "IProcess"
+                }
+              ]
+            },
+            {
+              "id": "subD_c4_p3",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "IOutput"
+                }
+              ]
+            },
+            {
+              "id": "subD_c4_p4",
+              "width": 15,
+              "height": 15,
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "ILog"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "subD_e1",
+          "sources": [
+            "subD_c1_p3"
+          ],
+          "targets": [
+            "subD_c2_p1"
+          ]
+        },
+        {
+          "id": "subD_e2",
+          "sources": [
+            "subD_c2_p3"
+          ],
+          "targets": [
+            "subD_c3_p1"
+          ]
+        },
+        {
+          "id": "subD_e3",
+          "sources": [
+            "subD_c3_p3"
+          ],
+          "targets": [
+            "subD_c4_p1"
+          ]
+        },
+        {
+          "id": "subD_e4",
+          "sources": [
+            "subD_c4_p2"
+          ],
+          "targets": [
+            "subD_c1_p2"
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_AC1_BC4",
+      "sources": [
+        "subA_c1_p3"
+      ],
+      "targets": [
+        "subB_c1_p3"
+      ]
+    },
+    {
+      "id": "e_AB",
+      "sources": [
+        "subA_c4_p3"
+      ],
+      "targets": [
+        "subB_c1_p1"
+      ]
+    },
+    {
+      "id": "e_BC",
+      "sources": [
+        "subB_c4_p3"
+      ],
+      "targets": [
+        "subC_c1_p1"
+      ]
+    },
+    {
+      "id": "e_CD",
+      "sources": [
+        "subC_c4_p3"
+      ],
+      "targets": [
+        "subD_c1_p1"
+      ]
+    },
+    {
+      "id": "e_AC",
+      "sources": [
+        "subA_c2_p3"
+      ],
+      "targets": [
+        "subC_c2_p2"
+      ]
+    },
+    {
+      "id": "e_BD",
+      "sources": [
+        "subB_c3_p3"
+      ],
+      "targets": [
+        "subD_c3_p2"
+      ]
+    },
+    {
+      "id": "e_DA",
+      "sources": [
+        "subD_c4_p3"
+      ],
+      "targets": [
+        "subA_c1_p4"
+      ]
+    }
+  ]
+}

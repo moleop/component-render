@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="857.5" height="4890" viewBox="0 0 857.5 4890" style="font-family: sans-serif;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <g transform="translate(104, 2540)" id="sub1" class="subsystem">
+    <rect width="428.5" height="1022.5" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="214.25" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Subsystem&gt;&gt;</text>
+    <text x="214.25" y="30" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">Core</text>
+    <g transform="translate(226.5, 607.5)" id="sub1_c1" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Core Comp 1</text>
+      <line x1="108.75" y1="0" x2="108.75" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="101.25" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="31.25" y1="0" x2="31.25" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(31.25, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="36.25" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="23.75" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="70" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(146.5, 882.5)" id="sub1_c2" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Core Comp 2</text>
+      <line x1="85.5" y1="0" x2="85.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="85.5" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="90.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="78" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="116.5" y1="0" x2="116.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(116.5, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="121.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="109" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="54.5" y1="0" x2="54.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="54.5" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="59.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="47" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="23.5" y1="0" x2="23.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(23.5, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="28.5" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="16" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(51, 47.5)" id="sub1_c3" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Core Comp 3</text>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="70" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="31.25" y1="100" x2="31.25" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="31.25" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="36.25" y="157" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="23.75" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="108.75" y1="100" x2="108.75" y2="130" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(108.75, 136) rotate(90)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="113.75" y="157" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="101.25" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(51, 332.5)" id="sub1_c4" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Core Comp 4</text>
+      <line x1="31.25" y1="0" x2="31.25" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="31.25" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="36.25" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="23.75" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, 136) rotate(90)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="108.75" y1="0" x2="108.75" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="-49" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="101.25" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <path d="M 296.5 715 L 296.5 795 L 232 795 L 232 875" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 201 875 L 201 245 L 121 245 L 121 155" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 82.25 155 L 82.25 325" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 121 440 L 121 520 L 257.75 520 L 257.75 600" fill="none" stroke="#333" stroke-width="2"/>
+  </g>
+  <g transform="translate(381.5, 1337.5)" id="sub2" class="subsystem">
+    <rect width="379.75" height="1022.5" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="189.875" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Subsystem&gt;&gt;</text>
+    <text x="189.875" y="30" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">Backup</text>
+    <g transform="translate(40, 607.5)" id="sub2_c1" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Backup Comp 1</text>
+      <line x1="108.75" y1="0" x2="108.75" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="101.25" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="31.25" y1="0" x2="31.25" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(31.25, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="36.25" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="23.75" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="70" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(177.75, 882.5)" id="sub2_c2" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Backup Comp 2</text>
+      <line x1="23.5" y1="0" x2="23.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="23.5" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="28.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="16" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="116.5" y1="0" x2="116.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(116.5, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="121.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="109" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="54.5" y1="0" x2="54.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="54.5" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="59.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="47" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="85.5" y1="0" x2="85.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(85.5, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="90.5" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="78" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(82.25, 47.5)" id="sub2_c3" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Backup Comp 3</text>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="70" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="31.25" y1="100" x2="31.25" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="31.25" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="36.25" y="157" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="23.75" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="108.75" y1="100" x2="108.75" y2="130" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(108.75, 136) rotate(90)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="113.75" y="157" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="101.25" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(82.25, 332.5)" id="sub2_c4" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Backup Comp 4</text>
+      <line x1="31.25" y1="0" x2="31.25" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="31.25" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="36.25" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="23.75" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, 136) rotate(90)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="108.75" y1="0" x2="108.75" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="-49" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="101.25" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <path d="M 110 715 L 110 795 L 201.25 795 L 201.25 875" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 232.25 875 L 232.25 245 L 152.25 245 L 152.25 155" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 113.5 155 L 113.5 325" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 152.25 440 L 152.25 520 L 71.25 520 L 71.25 600" fill="none" stroke="#333" stroke-width="2"/>
+  </g>
+  <g transform="translate(156.25, 135)" id="sub3" class="subsystem">
+    <rect width="428.5" height="1022.5" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="214.25" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Subsystem&gt;&gt;</text>
+    <text x="214.25" y="30" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">Analytics</text>
+    <g transform="translate(226.5, 607.5)" id="sub3_c1" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Analytics Comp 1</text>
+      <line x1="108.75" y1="0" x2="108.75" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="101.25" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="31.25" y1="0" x2="31.25" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(31.25, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="36.25" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="23.75" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="70" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(146.5, 882.5)" id="sub3_c2" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Analytics Comp 2</text>
+      <line x1="85.5" y1="0" x2="85.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="85.5" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="90.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="78" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="116.5" y1="0" x2="116.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(116.5, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="121.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="109" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="54.5" y1="0" x2="54.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="54.5" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="59.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="47" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="23.5" y1="0" x2="23.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(23.5, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="28.5" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="16" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(51, 47.5)" id="sub3_c3" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Analytics Comp 3</text>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="70" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="31.25" y1="100" x2="31.25" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="31.25" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="36.25" y="157" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="23.75" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="108.75" y1="100" x2="108.75" y2="130" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(108.75, 136) rotate(90)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="113.75" y="157" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="101.25" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(51, 332.5)" id="sub3_c4" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Analytics Comp 4</text>
+      <line x1="31.25" y1="0" x2="31.25" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="31.25" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="36.25" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="23.75" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, 136) rotate(90)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="108.75" y1="0" x2="108.75" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="-49" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="101.25" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <path d="M 296.5 715 L 296.5 795 L 232 795 L 232 875" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 201 875 L 201 245 L 121 245 L 121 155" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 82.25 155 L 82.25 325" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 121 440 L 121 520 L 257.75 520 L 257.75 600" fill="none" stroke="#333" stroke-width="2"/>
+  </g>
+  <g transform="translate(360.5, 3742.5)" id="sub4" class="subsystem">
+    <rect width="414" height="1012.5" fill="#f9f9f9" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="207" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Subsystem&gt;&gt;</text>
+    <text x="207" y="30" text-anchor="middle" dominant-baseline="auto" font-size="12px" fill="#000">UI Backend</text>
+    <g transform="translate(62, 597.5)" id="sub4_c1" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">UI Backend Comp 1</text>
+      <line x1="108.75" y1="0" x2="108.75" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="101.25" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="31.25" y1="0" x2="31.25" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(31.25, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="36.25" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="23.75" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="70" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(157.5, 872.5)" id="sub4_c2" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">UI Backend Comp 2</text>
+      <line x1="23.5" y1="0" x2="23.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="23.5" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="28.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="16" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="116.5" y1="0" x2="116.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(116.5, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="121.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="109" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="54.5" y1="0" x2="54.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="54.5" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="59.5" y="-49" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="47" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="85.5" y1="0" x2="85.5" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(85.5, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="90.5" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="78" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(145.5, 47.5)" id="sub4_c3" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">UI Backend Comp 3</text>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="70" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="108.75" y1="100" x2="108.75" y2="130" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="136" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="157" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="101.25" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="31.25" y1="100" x2="31.25" y2="130" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(31.25, 136) rotate(90)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="36.25" y="157" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="23.75" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <g transform="translate(223, 322.5)" id="sub4_c4" class="component">
+      <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+      <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+      <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">UI Backend Comp 4</text>
+      <line x1="31.25" y1="0" x2="31.25" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="31.25" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="36.25" y="-49" text-anchor="start" font-size="10px" fill="#000">IInput</text>
+      <rect x="23.75" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="100" x2="70" y2="130" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, 136) rotate(90)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="157" text-anchor="start" font-size="10px" fill="#000">IProcess</text>
+      <rect x="62.5" y="92.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="108.75" y1="0" x2="108.75" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <circle cx="108.75" cy="-36" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+      <text x="113.75" y="-49" text-anchor="start" font-size="10px" fill="#000">IOutput</text>
+      <rect x="101.25" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <line x1="70" y1="0" x2="70" y2="-30" stroke="#333" stroke-width="1.5"/>
+      <g transform="translate(70, -36) rotate(270)">
+        <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="-49" text-anchor="start" font-size="10px" fill="#000">ILog</text>
+      <rect x="62.5" y="-7.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+      <g transform="translate(115, 5)">
+        <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+        <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      </g>
+    </g>
+    <path d="M 132 705 L 132 785 L 181 785 L 181 865" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 212 865 L 212 235 L 215.5 235 L 215.5 155" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 254.25 155 L 254.25 315" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 293 430 L 293 510 L 93.25 510 L 93.25 590" fill="none" stroke="#333" stroke-width="2"/>
+  </g>
+  <path d="M 400.5 3255 L 400.5 3647.5 L 83 3647.5 L 83 1252.5 L 452.75 1252.5 L 452.75 1937.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 263.75 2695 L 263.75 2775 L 480.5 2775 L 480.5 3657.5 L 794.5 3657.5 L 794.5 1242.5 L 720.25 1242.5 L 720.25 2132.5 L 644.75 2132.5 L 644.75 2212.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 400.5 3255 L 400.5 3647.5 L 40 3647.5 L 40 40 L 543.75 40 L 543.75 655 L 414 655 L 414 735" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 263.75 2695 L 263.75 2775 L 480.5 2775 L 480.5 3657.5 L 51 3657.5 L 51 50 L 196.25 50 L 196.25 930 L 326.25 930 L 326.25 1010" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 400.5 3255 L 400.5 4252.5 L 453.75 4252.5 L 453.75 4332.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 263.75 2695 L 263.75 2775 L 480.5 2775 L 480.5 3657.5 L 733.5 3657.5 L 733.5 4527.5 L 603.5 4527.5 L 603.5 4607.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 491.5 2052.5 L 491.5 3060 L 361.75 3060 L 361.75 3140" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 572.5 1492.5 L 572.5 1572.5 L 709.25 1572.5 L 709.25 2455 L 144 2455 L 144 3335 L 274 3335 L 274 3415" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 491.5 2052.5 L 491.5 2445 L 62 2445 L 62 40 L 543.75 40 L 543.75 655 L 414 655 L 414 735" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 572.5 1492.5 L 572.5 1572.5 L 709.25 1572.5 L 709.25 2455 L 72 2455 L 72 50 L 196.25 50 L 196.25 930 L 326.25 930 L 326.25 1010" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 491.5 2052.5 L 491.5 2445 L 83 2445 L 83 3647.5 L 400.5 3647.5 L 400.5 4252.5 L 453.75 4252.5 L 453.75 4332.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 572.5 1492.5 L 572.5 1572.5 L 709.25 1572.5 L 709.25 2455 L 794.5 2455 L 794.5 3657.5 L 733.5 3657.5 L 733.5 4527.5 L 603.5 4527.5 L 603.5 4607.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 452.75 850 L 452.75 1252.5 L 805.5 1252.5 L 805.5 2445 L 491.5 2445 L 491.5 3060 L 361.75 3060 L 361.75 3140" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 316 290 L 316 370 L 532.75 370 L 532.75 1242.5 L 816.5 1242.5 L 816.5 2455 L 144 2455 L 144 3335 L 274 3335 L 274 3415" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 452.75 850 L 452.75 1937.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 316 290 L 316 370 L 532.75 370 L 532.75 1242.5 L 720.25 1242.5 L 720.25 2132.5 L 644.75 2132.5 L 644.75 2212.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 452.75 850 L 452.75 1252.5 L 805.5 1252.5 L 805.5 3647.5 L 400.5 3647.5 L 400.5 4252.5 L 453.75 4252.5 L 453.75 4332.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 316 290 L 316 370 L 532.75 370 L 532.75 1242.5 L 816.5 1242.5 L 816.5 3657.5 L 733.5 3657.5 L 733.5 4527.5 L 603.5 4527.5 L 603.5 4607.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 4447.5 L 492.5 4850 L 784.5 4850 L 784.5 2445 L 491.5 2445 L 491.5 3060 L 361.75 3060 L 361.75 3140" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 537.25 3897.5 L 537.25 3977.5 L 411.5 3977.5 L 411.5 4840 L 94 4840 L 94 2455 L 144 2455 L 144 3335 L 274 3335 L 274 3415" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 4447.5 L 492.5 4850 L 83 4850 L 83 1252.5 L 452.75 1252.5 L 452.75 1937.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 537.25 3897.5 L 537.25 3977.5 L 411.5 3977.5 L 411.5 4840 L 794.5 4840 L 794.5 1242.5 L 720.25 1242.5 L 720.25 2132.5 L 644.75 2132.5 L 644.75 2212.5" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 4447.5 L 492.5 4850 L 40 4850 L 40 40 L 543.75 40 L 543.75 655 L 414 655 L 414 735" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 537.25 3897.5 L 537.25 3977.5 L 411.5 3977.5 L 411.5 4840 L 51 4840 L 51 2455 L 72 2455 L 72 50 L 196.25 50 L 196.25 930 L 326.25 930 L 326.25 1010" fill="none" stroke="#333" stroke-width="2"/>
+</svg>

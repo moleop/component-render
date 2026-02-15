@@ -1,0 +1,1487 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered",
+    "elk.direction": "RIGHT",
+    "elk.spacing.nodeNode": "120",
+    "elk.layered.spacing.nodeNodeBetweenLayers": "180"
+  },
+  "children": [
+    {
+      "id": "sub1",
+      "labels": [
+        {
+          "text": "Alpha"
+        }
+      ],
+      "children": [
+        {
+          "id": "sub1_c1",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Alpha C1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub1_c1_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c1_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c1_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c1_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub1_c2",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Alpha C2"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub1_c2_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c2_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c2_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c2_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub1_c3",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Alpha C3"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub1_c3_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c3_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c3_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c3_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub1_c4",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Alpha C4"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub1_c4_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c4_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c4_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub1_c4_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": []
+    },
+    {
+      "id": "sub2",
+      "labels": [
+        {
+          "text": "Beta"
+        }
+      ],
+      "children": [
+        {
+          "id": "sub2_c1",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Beta C1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub2_c1_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c1_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c1_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c1_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub2_c2",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Beta C2"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub2_c2_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c2_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c2_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c2_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub2_c3",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Beta C3"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub2_c3_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c3_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c3_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c3_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub2_c4",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Beta C4"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub2_c4_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c4_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c4_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub2_c4_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": []
+    },
+    {
+      "id": "sub3",
+      "labels": [
+        {
+          "text": "Gamma"
+        }
+      ],
+      "children": [
+        {
+          "id": "sub3_c1",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Gamma C1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub3_c1_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c1_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c1_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c1_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub3_c2",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Gamma C2"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub3_c2_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c2_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c2_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c2_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub3_c3",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Gamma C3"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub3_c3_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c3_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c3_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c3_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub3_c4",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Gamma C4"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub3_c4_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c4_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c4_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub3_c4_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": []
+    },
+    {
+      "id": "sub4",
+      "labels": [
+        {
+          "text": "Delta"
+        }
+      ],
+      "children": [
+        {
+          "id": "sub4_c1",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Delta C1"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub4_c1_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c1_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c1_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c1_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub4_c2",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Delta C2"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub4_c2_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c2_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c2_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c2_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub4_c3",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Delta C3"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub4_c3_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c3_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c3_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c3_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sub4_c4",
+          "width": 140,
+          "height": 100,
+          "labels": [
+            {
+              "text": "Delta C4"
+            }
+          ],
+          "ports": [
+            {
+              "id": "sub4_c4_pIn",
+              "width": 15,
+              "height": 15,
+              "side": "WEST",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "In"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c4_pOut",
+              "width": 15,
+              "height": 15,
+              "side": "EAST",
+              "interfaces": [
+                {
+                  "type": "required",
+                  "label": "Out"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c4_pMix",
+              "width": 15,
+              "height": 15,
+              "side": "NORTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Prov"
+                },
+                {
+                  "type": "required",
+                  "label": "Req"
+                }
+              ]
+            },
+            {
+              "id": "sub4_c4_pMix2",
+              "width": 15,
+              "height": 15,
+              "side": "SOUTH",
+              "interfaces": [
+                {
+                  "type": "provided",
+                  "label": "Status"
+                },
+                {
+                  "type": "required",
+                  "label": "Ctrl"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "edges": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "sources": [
+        "sub1_c1_pMix"
+      ],
+      "targets": [
+        "sub2_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_1",
+      "sources": [
+        "sub1_c3_pMix2"
+      ],
+      "targets": [
+        "sub2_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_2",
+      "sources": [
+        "sub1_c2_pOut"
+      ],
+      "targets": [
+        "sub2_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_3",
+      "sources": [
+        "sub1_c1_pMix"
+      ],
+      "targets": [
+        "sub3_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_4",
+      "sources": [
+        "sub1_c3_pMix2"
+      ],
+      "targets": [
+        "sub3_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_5",
+      "sources": [
+        "sub1_c2_pOut"
+      ],
+      "targets": [
+        "sub3_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_6",
+      "sources": [
+        "sub1_c1_pMix"
+      ],
+      "targets": [
+        "sub4_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_7",
+      "sources": [
+        "sub1_c3_pMix2"
+      ],
+      "targets": [
+        "sub4_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_8",
+      "sources": [
+        "sub1_c2_pOut"
+      ],
+      "targets": [
+        "sub4_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_9",
+      "sources": [
+        "sub2_c1_pMix"
+      ],
+      "targets": [
+        "sub1_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_10",
+      "sources": [
+        "sub2_c3_pMix2"
+      ],
+      "targets": [
+        "sub1_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_11",
+      "sources": [
+        "sub2_c2_pOut"
+      ],
+      "targets": [
+        "sub1_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_12",
+      "sources": [
+        "sub2_c1_pMix"
+      ],
+      "targets": [
+        "sub3_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_13",
+      "sources": [
+        "sub2_c3_pMix2"
+      ],
+      "targets": [
+        "sub3_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_14",
+      "sources": [
+        "sub2_c2_pOut"
+      ],
+      "targets": [
+        "sub3_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_15",
+      "sources": [
+        "sub2_c1_pMix"
+      ],
+      "targets": [
+        "sub4_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_16",
+      "sources": [
+        "sub2_c3_pMix2"
+      ],
+      "targets": [
+        "sub4_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_17",
+      "sources": [
+        "sub2_c2_pOut"
+      ],
+      "targets": [
+        "sub4_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_18",
+      "sources": [
+        "sub3_c1_pMix"
+      ],
+      "targets": [
+        "sub1_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_19",
+      "sources": [
+        "sub3_c3_pMix2"
+      ],
+      "targets": [
+        "sub1_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_20",
+      "sources": [
+        "sub3_c2_pOut"
+      ],
+      "targets": [
+        "sub1_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_21",
+      "sources": [
+        "sub3_c1_pMix"
+      ],
+      "targets": [
+        "sub2_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_22",
+      "sources": [
+        "sub3_c3_pMix2"
+      ],
+      "targets": [
+        "sub2_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_23",
+      "sources": [
+        "sub3_c2_pOut"
+      ],
+      "targets": [
+        "sub2_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_24",
+      "sources": [
+        "sub3_c1_pMix"
+      ],
+      "targets": [
+        "sub4_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_25",
+      "sources": [
+        "sub3_c3_pMix2"
+      ],
+      "targets": [
+        "sub4_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_26",
+      "sources": [
+        "sub3_c2_pOut"
+      ],
+      "targets": [
+        "sub4_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_27",
+      "sources": [
+        "sub4_c1_pMix"
+      ],
+      "targets": [
+        "sub1_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_28",
+      "sources": [
+        "sub4_c3_pMix2"
+      ],
+      "targets": [
+        "sub1_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_29",
+      "sources": [
+        "sub4_c2_pOut"
+      ],
+      "targets": [
+        "sub1_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_30",
+      "sources": [
+        "sub4_c1_pMix"
+      ],
+      "targets": [
+        "sub2_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_31",
+      "sources": [
+        "sub4_c3_pMix2"
+      ],
+      "targets": [
+        "sub2_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_32",
+      "sources": [
+        "sub4_c2_pOut"
+      ],
+      "targets": [
+        "sub2_c3_pIn"
+      ]
+    },
+    {
+      "id": "edge_33",
+      "sources": [
+        "sub4_c1_pMix"
+      ],
+      "targets": [
+        "sub3_c2_pMix"
+      ]
+    },
+    {
+      "id": "edge_34",
+      "sources": [
+        "sub4_c3_pMix2"
+      ],
+      "targets": [
+        "sub3_c4_pMix2"
+      ]
+    },
+    {
+      "id": "edge_35",
+      "sources": [
+        "sub4_c2_pOut"
+      ],
+      "targets": [
+        "sub3_c3_pIn"
+      ]
+    },
+    {
+      "id": "mix_special_1",
+      "sources": [
+        "sub1_c1_pMix"
+      ],
+      "targets": [
+        "sub4_c4_pMix"
+      ]
+    },
+    {
+      "id": "mix_special_2",
+      "sources": [
+        "sub2_c2_pMix2"
+      ],
+      "targets": [
+        "sub3_c3_pMix2"
+      ]
+    }
+  ]
+}
