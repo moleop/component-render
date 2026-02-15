@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="227.5" height="180" viewBox="0 0 227.5 180" style="font-family: sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" width="535" height="180" viewBox="0 0 535 180" style="font-family: sans-serif;">
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
     </marker>
   </defs>
-  <g transform="translate(47.5, 40)" id="mixed_comp" class="component">
+  <g transform="translate(355, 40)" id="mixed_comp" class="component">
     <rect width="140" height="100" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
     <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
     <text x="70" y="50" text-anchor="middle" dominant-baseline="middle" font-size="12px" fill="#000">Mixed Interfaces</text>
@@ -18,17 +18,14 @@
     </g>
     <text x="-47" y="82.16666666666667" text-anchor="end" font-size="10px" fill="#000">Req</text>
     <rect x="-7.5" y="56.66666666666667" width="15" height="30" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
-    <line x1="0" y1="13.333333333333336" x2="-30" y2="13.333333333333336" stroke="#333" stroke-width="1.5"/>
-    <circle cx="-36" cy="13.333333333333336" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-    <text x="-47" y="16.333333333333336" text-anchor="end" font-size="10px" fill="#000">P1</text>
-    <line x1="0" y1="28.333333333333336" x2="-30" y2="28.333333333333336" stroke="#333" stroke-width="1.5"/>
-    <g transform="translate(-36, 28.333333333333336) rotate(180)">
+    <line x1="0" y1="20.833333333333336" x2="-30" y2="20.833333333333336" stroke="#333" stroke-width="1.5"/>
+    <circle cx="-36" cy="20.833333333333336" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+    <text x="-47" y="23.833333333333336" text-anchor="end" font-size="10px" fill="#000">P1</text>
+    <line x1="0" y1="35.833333333333336" x2="-30" y2="35.833333333333336" stroke="#333" stroke-width="1.5"/>
+    <g transform="translate(-36, 35.833333333333336) rotate(180)">
       <path d="M 0 -6 A 6 6 0 0 0 0 6" fill="none" stroke="#333" stroke-width="1.5"/>
     </g>
-    <text x="-47" y="31.333333333333336" text-anchor="end" font-size="10px" fill="#000">R1</text>
-    <line x1="0" y1="43.333333333333336" x2="-30" y2="43.333333333333336" stroke="#333" stroke-width="1.5"/>
-    <circle cx="-36" cy="43.333333333333336" r="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
-    <text x="-47" y="46.333333333333336" text-anchor="end" font-size="10px" fill="#000">P2</text>
+    <text x="-47" y="38.833333333333336" text-anchor="end" font-size="10px" fill="#000">R1</text>
     <rect x="-7.5" y="13.333333333333334" width="15" height="30" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
     <g transform="translate(115, 5)">
       <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
@@ -36,4 +33,17 @@
       <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
     </g>
   </g>
+  <g transform="translate(40, 44.166666666666664)" id="dummy_client" class="component">
+    <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+    <rect x="132.5" y="48.333333333333336" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="132.5" y="16.666666666666668" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(115, 5)">
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+    </g>
+  </g>
+  <path d="M 347.5 111.66666666666667 L 267.5 111.66666666666667 L 267.5 100 L 187.5 100" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 187.5 68.33333333333334 L 347.5 68.33333333333334" fill="none" stroke="#333" stroke-width="2"/>
 </svg>

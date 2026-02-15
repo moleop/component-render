@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="363.75" viewBox="0 0 880 363.75" style="font-family: sans-serif;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <g transform="translate(43.75, 40)" id="small_comp_no_ports" class="component">
+    <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+    <g transform="translate(115, 5)">
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+    </g>
+  </g>
+  <g transform="translate(40, 220)" id="auto_comp_1_port" class="component">
+    <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+    <rect x="132.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(115, 5)">
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+    </g>
+  </g>
+  <g transform="translate(345, 220)" id="auto_comp_many_ports_east" class="component">
+    <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+    <rect x="-7.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="132.5" y="8.75" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="132.5" y="20.625" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="132.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="132.5" y="44.375" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="132.5" y="-3.125" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="132.5" y="56.25" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="132.5" y="68.125" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(115, 5)">
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+    </g>
+  </g>
+  <g transform="translate(700, 63.75)" id="auto_comp_many_ports_north" class="component">
+    <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+    <rect x="-7.5" y="16.666666666666668" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="-7.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="-7.5" y="48.333333333333336" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="-7.5" y="64.16666666666667" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <rect x="-7.5" y="0.8333333333333339" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(115, 5)">
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+    </g>
+  </g>
+  <g transform="translate(700, 243.75)" id="sink" class="component">
+    <rect width="140" height="80" fill="#ffffff" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="70" y="15" text-anchor="middle" font-size="10px" fill="#000">&lt;&lt;Component&gt;&gt;</text>
+    <rect x="-7.5" y="32.5" width="15" height="15" fill="#ffffff" stroke="#333" stroke-width="1" class="port"/>
+    <g transform="translate(115, 5)">
+      <rect x="0" y="0" width="16" height="16" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+      <rect x="-4" y="9" width="8" height="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+    </g>
+  </g>
+  <path d="M 187.5 260 L 337.5 260" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 236.25 L 582.5 236.25 L 582.5 87.91666666666666 L 692.5 87.91666666666666" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 248.125 L 592.5 248.125 L 592.5 103.75 L 692.5 103.75" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 260 L 602.5 260 L 602.5 119.58333333333334 L 692.5 119.58333333333334" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 271.875 L 612.5 271.875 L 612.5 135.41666666666669 L 692.5 135.41666666666669" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 224.375 L 572.5 224.375 L 572.5 72.08333333333334 L 692.5 72.08333333333334" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 283.75 L 692.5 283.75" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 492.5 295.625 L 572.5 295.625 L 572.5 283.75 L 692.5 283.75" fill="none" stroke="#333" stroke-width="2"/>
+</svg>

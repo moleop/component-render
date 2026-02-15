@@ -44,12 +44,6 @@
           "text": "Main Subsystem"
         }
       ],
-      "layoutOptions": {
-        "elk.padding": "[top=80,left=60,bottom=60,right=60]",
-        "elk.spacing.nodeNode": "80",
-        "elk.layered.spacing.nodeNodeBetweenLayers": "100",
-        "elk.algorithm": "layered"
-      },
       "children": [
         {
           "id": "proc_1",
@@ -149,6 +143,15 @@
         }
       ],
       "edges": [
+        {
+          "id": "e_p1_out2_loop",
+          "sources": [
+            "p_p1_out2"
+          ],
+          "targets": [
+            "p_p2_in"
+          ]
+        },
         {
           "id": "e_p1_deep",
           "sources": [

@@ -43,14 +43,23 @@
             {
               "type": "required",
               "label": "R1"
-            },
-            {
-              "type": "provided",
-              "label": "P2"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "dummy_client",
+      "width": 100,
+      "height": 50,
+      "ports": [
+          { "id": "p_client_in", "layoutOptions": { "elk.port.side": "WEST" } },
+          { "id": "p_client_out", "layoutOptions": { "elk.port.side": "EAST" } }
+      ]
     }
+  ],
+  "edges": [
+      { "id": "e_mix", "sources": ["p_mix"], "targets": ["p_client_in"] },
+      { "id": "e_tri", "sources": ["p_client_out"], "targets": ["p_tri"] }
   ]
 }

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const ELK = require('elkjs');
 const { preprocessGraph } = require('./src/preprocessor');
+const { validateGraph } = require('./src/validator');
 const { renderGraphToSVG } = require('./src/renderer');
 
 const elk = new ELK();
@@ -28,6 +29,9 @@ try {
 
     // Preprocess graph (configure ports, remove ports from subsystems, set defaults)
     preprocessGraph(graph);
+
+    // Validate graph (check for disconnected ports)
+    validateGraph(graph);
 
     elk.layout(graph)
         .then(layoutedGraph => {
