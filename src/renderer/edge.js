@@ -36,6 +36,18 @@ function renderEdge(parent, edge) {
              });
         }
     });
+
+    // Render Junction Points
+    if (edge.junctionPoints) {
+        edge.junctionPoints.forEach(jp => {
+            parent.ele('circle', {
+                cx: jp.x,
+                cy: jp.y,
+                r: config.styles.edge.junctionPointRadius,
+                fill: config.styles.edge.junctionPointFill
+            });
+        });
+    }
 }
 
 module.exports = {

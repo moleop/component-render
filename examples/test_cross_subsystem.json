@@ -1,0 +1,95 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered",
+    "elk.direction": "RIGHT",
+    "elk.spacing.nodeNode": "100",
+    "elk.hierarchyHandling": "INCLUDE_CHILDREN"
+  },
+  "children": [
+    {
+      "id": "subsystemA",
+      "labels": [ { "text": "Subsystem A" } ],
+      "children": [
+        {
+          "id": "compA1",
+          "labels": [ { "text": "Component A1" } ],
+          "ports": [
+            {
+              "id": "pA1_out",
+              "layoutOptions": { "elk.port.side": "EAST" },
+              "interfaces": [ 
+                { "type": "provided", "label": "Out" },
+                { "type": "required", "label": "Outrequired" }
+            ]
+            }
+          ]
+        },
+        {
+          "id": "compA2",
+          "labels": [ { "text": "Component A2" } ],
+          "ports": [
+            {
+              "id": "pA2_in",
+              "layoutOptions": { "elk.port.side": "EAST" },
+              "interfaces": [
+                { "type": "required", "label": "required" },
+                { "type": "provided", "label": "provided" }
+              ]
+            },
+            {
+              "id": "pA2_out",
+              "layoutOptions": { "elk.port.side": "EAST" },
+              "interfaces": [ 
+                { "type": "provided", "label": "Out" },
+                { "type": "required", "label": "Outrequired" }
+            
+            ]
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "sources": [ "pA1_out" ],
+          "targets": [ "pA2_in" ]
+        }
+      ]
+    },
+    {
+      "id": "subsystemB",
+      "labels": [ { "text": "Subsystem B" } ],
+      "children": [
+        {
+          "id": "compB1",
+          "labels": [ { "text": "Component B1" } ],
+          "ports": [
+            {
+              "id": "pB1_in1",
+              "layoutOptions": { "elk.port.side": "WEST" },
+              "interfaces": [ { "type": "required", "label": "In1" } ]
+            },
+            {
+              "id": "pB1_in2",
+              "layoutOptions": { "elk.port.side": "WEST" },
+              "interfaces": [ { "type": "required", "label": "In2" } ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e2",
+      "sources": [ "pA2_out" ],
+      "targets": [ "pB1_in1" ]
+    },
+    {
+      "id": "e3",
+      "sources": [ "pA1_out" ],
+      "targets": [ "pB1_in2" ]
+    }
+  ]
+}

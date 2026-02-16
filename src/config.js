@@ -38,7 +38,9 @@ module.exports = {
             strokeWidth: 2,
             fill: 'none',
             labelFontSize: '10px',
-            labelFill: '#555'
+            labelFill: '#555',
+            junctionPointRadius: 4,
+            junctionPointFill: '#333'
         },
         symbol: {
             fill: '#ffffff',
