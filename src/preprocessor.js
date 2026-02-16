@@ -17,6 +17,12 @@ function preprocessGraph(node) {
 
     // Configure ports for Components (leaf nodes)
     if (!isSubsystem) {
+        // Ensure layoutOptions exists
+        if (!node.layoutOptions) node.layoutOptions = {};
+        
+        // FIX: Force ELK to respect the side constraint for ports
+        node.layoutOptions['elk.portConstraints'] = 'FIXED_SIDE';
+
         let northPorts = 0;
         let southPorts = 0;
         let eastPorts = 0;
@@ -24,10 +30,16 @@ function preprocessGraph(node) {
 
         if (node.ports) {
             node.ports.forEach(port => {
+                // Ensure layoutOptions exists
+                if (!port.layoutOptions) port.layoutOptions = {};
+
                 // Determine side (default to EAST if unknown, assuming layered right layout)
                 let side = 'EAST'; 
-                if (port.layoutOptions && port.layoutOptions['elk.port.side']) {
+                if (port.layoutOptions['elk.port.side']) {
                     side = port.layoutOptions['elk.port.side'];
+                } else {
+                    // Explicitly set default side to EAST so ELK knows where to place it
+                    port.layoutOptions['elk.port.side'] = 'EAST';
                 }
 
                 if (side === 'NORTH') northPorts++;
