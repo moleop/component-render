@@ -11,10 +11,10 @@ module.exports = {
             stroke: '#333',
             strokeWidth: 2,
             rx: 5,
-            labelFontSize: '12px',
+            labelFontSize: '13px',
             labelFill: '#000',
-            defaultWidth: 140, // Increased default width
-            defaultHeight: 80
+            defaultWidth: 200,
+            defaultHeight: 120
         },
         subsystem: {
             fill: '#f9f9f9',

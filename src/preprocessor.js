@@ -84,8 +84,8 @@ function preprocessGraph(node) {
         // Calculate minimum dimensions based on ports
         // We need enough space for the ports plus some padding.
         // Assuming a certain spacing between ports (e.g., 20px) and some margin.
-        const portSpacing = 25; 
-        const margin = 20;
+        const portSpacing = 30; 
+        const margin = 50;
 
         const requiredWidth = Math.max(northPorts, southPorts) * portSpacing + margin;
         const requiredHeight = Math.max(eastPorts, westPorts) * portSpacing + margin;
@@ -110,14 +110,11 @@ function preprocessGraph(node) {
         }
         
         // Inject default spacing if not present
-        if (!node.layoutOptions['elk.spacing.nodeNode']) {
-            node.layoutOptions['elk.spacing.nodeNode'] = '100';
-        }
         if (!node.layoutOptions['elk.layered.spacing.nodeNodeBetweenLayers']) {
-            node.layoutOptions['elk.layered.spacing.nodeNodeBetweenLayers'] = '150';
+            node.layoutOptions['elk.layered.spacing.nodeNodeBetweenLayers'] = '400';
         }
         if (!node.layoutOptions['elk.layered.spacing.edgeNodeBetweenLayers']) {
-            node.layoutOptions['elk.layered.spacing.edgeNodeBetweenLayers'] = '80';
+            node.layoutOptions['elk.layered.spacing.edgeNodeBetweenLayers'] = '50';
         }
         
         // Ensure hierarchy handling is enabled for layered layout
